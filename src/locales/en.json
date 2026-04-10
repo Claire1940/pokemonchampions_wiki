@@ -10,7 +10,16 @@
       "twitterDescription": "Pokemon Champions hub for battle modes, HOME transfer, Mega Evolution, rewards, regulations, and VGC-ready team guides for Switch players."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guides",
+    "roster": "Roster",
+    "teams": "Teams",
+    "meta": "Meta",
+    "mechanics": "Mechanics",
+    "rewards": "Rewards",
+    "release": "Release",
+    "home": "Pokemon HOME"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1140,125 +1149,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "modes": {
-      "title": "Pokemon Champions Battle Modes",
-      "description": "Complete guide to Ranked Battles, Casual Battles, and Private Battles in Pokemon Champions.",
-      "metaTitle": "Pokemon Champions Battle Modes - Ranked, Casual & Private Battles",
-      "metaDescription": "Learn all Pokemon Champions battle modes including Ranked Battles for progression, Casual Battles for practice, and Private Battles for custom play.",
-      "categoryLabel": "BATTLE MODES",
-      "whatIs": "What are Battle Modes?",
-      "whatIsDescription": "Pokemon Champions offers three battle modes: Ranked Battles for competitive ladder play and seasonal rewards, Casual Battles for practice without rank risk, and Private Battles for custom matches.",
-      "why": "Why learn battle modes?",
+    "guide": {
+      "title": "Pokemon Champions Beginner & Strategy Guides",
+      "description": "Step-by-step guides for Pokemon Champions covering team building, VP management, Roster Ranch, and competitive battle strategy.",
+      "metaTitle": "Pokemon Champions Guides - Team Building, VP & Battle Strategy",
+      "metaDescription": "Master Pokemon Champions with beginner guides, team building tips, VP strategy, and competitive battle advice. Start strong and climb the ranked ladder.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Pokemon Champions Guides?",
+      "whatIsDescription": "Pokemon Champions guides cover everything from picking your first starter team to managing Victory Points, using Roster Ranch, and mastering Mega Evolution in competitive play.",
+      "why": "Why read Pokemon Champions guides?",
       "whySteps": {
-        "step1Title": "Climb the Ladder",
-        "step1Description": "Ranked Battles determine your rank, season rewards, and VGC qualification standing",
-        "step2Title": "Practice Safely",
-        "step2Description": "Casual Battles let you test new teams and strategies without affecting your rank",
-        "step3Title": "Custom Play",
-        "step3Description": "Private Battles give you full control over match settings for training or friendly competition"
+        "step1Title": "Start Strong",
+        "step1Description": "Choose the right starter team and understand early game VP flow to avoid costly mistakes",
+        "step2Title": "Build Competitive Teams",
+        "step2Description": "Learn Singles and Doubles team composition, role balance, and format-specific strategies",
+        "step3Title": "Climb Efficiently",
+        "step3Description": "Use proven tips to progress through the ranked ladder and earn seasonal rewards faster"
       },
       "featured": "Featured & Essential",
-      "all": "All Battle Mode Guides"
+      "all": "All Pokemon Champions Guides"
     },
-    "formats": {
-      "title": "Pokemon Champions Battle Formats",
-      "description": "Master Singles and Doubles battle formats with team building strategies and format-specific tips.",
-      "metaTitle": "Pokemon Champions Battle Formats - Singles and Doubles Guide",
-      "metaDescription": "Understand Pokemon Champions Singles and Doubles formats. Learn team composition, key differences, and strategies for each battle format.",
-      "categoryLabel": "BATTLE FORMATS",
-      "whatIs": "What are Battle Formats?",
-      "whatIsDescription": "Pokemon Champions supports both Singles (1v1 per turn) and Doubles (2v2 per turn) formats. Each format rewards different team compositions and strategies.",
-      "why": "Why study formats?",
+    "roster": {
+      "title": "Pokemon Champions Roster & Pokemon List",
+      "description": "Full roster of playable Pokemon in Pokemon Champions, including Mega forms, regional variants, and transfer-eligible species.",
+      "metaTitle": "Pokemon Champions Roster - All Pokemon, Mega Forms & Variants",
+      "metaDescription": "Browse the complete Pokemon Champions roster. Find all playable Pokemon, Mega Evolution forms, regional variants, and HOME transfer eligibility.",
+      "categoryLabel": "ROSTER",
+      "whatIs": "What is the Pokemon Champions Roster?",
+      "whatIsDescription": "The Pokemon Champions roster includes all Pokemon available for competitive play, spanning base forms, Mega Evolution variants, regional forms, and Pokemon eligible for HOME transfer.",
+      "why": "Why explore the roster?",
       "whySteps": {
-        "step1Title": "Choose Your Format",
-        "step1Description": "Singles and Doubles require different team compositions and playstyles",
-        "step2Title": "Build the Right Team",
-        "step2Description": "Format-specific picks like Incineroar in Doubles or Garchomp in Singles define your team shell",
-        "step3Title": "Adapt Your Strategy",
-        "step3Description": "Learn format-specific mechanics like speed control, spread moves, and redirection"
+        "step1Title": "Know Your Options",
+        "step1Description": "Understand which Pokemon are available through recruitment, Starter Teams, and Pokemon HOME transfer",
+        "step2Title": "Find Mega Forms",
+        "step2Description": "Identify which Pokemon can Mega Evolve and what Mega Stones you need to equip",
+        "step3Title": "Plan Transfers",
+        "step3Description": "Check which Pokemon from your HOME library are eligible to visit Pokemon Champions"
       },
       "featured": "Featured & Essential",
-      "all": "All Format Guides"
+      "all": "All Roster Articles"
     },
-    "transfer": {
-      "title": "Pokemon HOME Transfer Guide",
-      "description": "Everything you need to know about transferring Pokemon from HOME to Pokemon Champions.",
-      "metaTitle": "Pokemon Champions HOME Transfer - Complete Guide",
-      "metaDescription": "Learn how to transfer Pokemon from Pokemon HOME to Pokemon Champions. Understand eligibility, transfer process, and which Pokemon are supported.",
-      "categoryLabel": "HOME TRANSFER",
-      "whatIs": "What is HOME Transfer?",
-      "whatIsDescription": "Pokemon HOME integration allows you to transfer eligible Pokemon directly into Pokemon Champions, instantly widening your roster beyond what you can recruit in-game.",
-      "why": "Why use HOME Transfer?",
+    "teams": {
+      "title": "Pokemon Champions Teams & Team Codes",
+      "description": "Pokemon Champions team guides covering starter lineups, replica team codes, and competitive team building strategies.",
+      "metaTitle": "Pokemon Champions Teams - Starter Lineups, Team Codes & Builds",
+      "metaDescription": "Find the best Pokemon Champions teams, replica team IDs, and team building guides. Copy proven competitive lineups and learn team code sharing.",
+      "categoryLabel": "TEAMS",
+      "whatIs": "What are Pokemon Champions Teams?",
+      "whatIsDescription": "Pokemon Champions lets you build and save custom teams, share them via Team IDs, and copy Replica Teams from other players for fast competitive setup.",
+      "why": "Why use team guides?",
       "whySteps": {
-        "step1Title": "Expand Your Roster",
-        "step1Description": "Bring high-value Pokemon from previous games directly into competitive play",
-        "step2Title": "Skip the Grind",
-        "step2Description": "Use trained Pokemon from your HOME library to get competitive-ready faster",
-        "step3Title": "Access Rare Picks",
-        "step3Description": "Some meta Pokemon like Archaludon are rare through in-game recruitment but easy to transfer from HOME"
+        "step1Title": "Pick the Best Starter",
+        "step1Description": "Each starter comes with a fixed five-mon lineup, so choosing the right one shapes your early competitive game",
+        "step2Title": "Copy Proven Teams",
+        "step2Description": "Use Replica Team codes to import tested competitive lineups instantly without building from scratch",
+        "step3Title": "Build Original Teams",
+        "step3Description": "Learn team building principles like role balance, speed control, and format-specific synergies"
       },
       "featured": "Featured & Essential",
-      "all": "All Transfer Guides"
+      "all": "All Team Guides"
     },
-    "recruitment": {
-      "title": "Pokemon Champions Recruitment Guide",
-      "description": "Master Roster Ranch recruitment, VP management, and Trial Recruitment to build your team efficiently.",
-      "metaTitle": "Pokemon Champions Recruitment - Roster Ranch & VP Guide",
-      "metaDescription": "Learn Pokemon Champions recruitment through Roster Ranch. Optimize VP spending, use Trial Recruitment, and build a competitive team from scratch.",
-      "categoryLabel": "RECRUITMENT",
-      "whatIs": "What is Recruitment?",
-      "whatIsDescription": "Roster Ranch is the main in-game recruitment system. You spend VP to recruit from a random daily lineup, with a free Trial Recruitment available once per day.",
-      "why": "Why optimize recruitment?",
+    "meta": {
+      "title": "Pokemon Champions Meta & Tier List",
+      "description": "Pokemon Champions meta analysis covering tier lists, ranked battle rankings, top picks, and tournament-level strategies.",
+      "metaTitle": "Pokemon Champions Meta - Tier List, Best Pokemon & Ranked Guide",
+      "metaDescription": "Stay on top of the Pokemon Champions meta with tier lists, best Pokemon rankings, Master Ball rank tips, and VGC-level competitive analysis.",
+      "categoryLabel": "META",
+      "whatIs": "What is the Pokemon Champions Meta?",
+      "whatIsDescription": "The Pokemon Champions meta represents the current competitive landscape, including top-tier Pokemon, dominant team archetypes, and ranked battle trends across Singles and Doubles formats.",
+      "why": "Why study the meta?",
       "whySteps": {
-        "step1Title": "Build Your Roster",
-        "step1Description": "Roster Ranch is your primary source of new Pokemon if you are not using HOME transfer",
-        "step2Title": "Manage VP Wisely",
-        "step2Description": "VP is earned through battles and cannot be purchased, so spend it on lasting roster value",
-        "step3Title": "Use Free Options",
-        "step3Description": "Trial Recruitment once per day gives you a chance at strong picks without spending VP"
+        "step1Title": "Know the Top Picks",
+        "step1Description": "Understand which Pokemon dominate ranked play and which are most likely to appear in your matches",
+        "step2Title": "Reach Master Ball Rank",
+        "step2Description": "Use meta knowledge to make smarter team decisions and improve your win rate on the ranked ladder",
+        "step3Title": "Prepare for Tournaments",
+        "step3Description": "Pokemon Champions is the official VGC platform for Worlds 2026, so meta knowledge matters at every level"
       },
       "featured": "Featured & Essential",
-      "all": "All Recruitment Guides"
+      "all": "All Meta Articles"
     },
-    "training": {
-      "title": "Pokemon Champions Training Guide",
-      "description": "Optimize your Pokemon's stats, Abilities, and moves through the Training system in Pokemon Champions.",
-      "metaTitle": "Pokemon Champions Training - Stats, Abilities & Moves Guide",
-      "metaDescription": "Master Pokemon Champions Training to optimize your team. Learn how to adjust stats, change Abilities, and customize move sets for competitive play.",
-      "categoryLabel": "TRAINING",
-      "whatIs": "What is Training?",
-      "whatIsDescription": "Training in Pokemon Champions lets you customize recruited Pokemon by adjusting their stats, Abilities, and moves. Note that Trial Recruits cannot be trained.",
-      "why": "Why train your Pokemon?",
+    "mechanics": {
+      "title": "Pokemon Champions Mechanics & Abilities",
+      "description": "Deep dives into Pokemon Champions battle mechanics, abilities, Mega Evolution, held items, and competitive interactions.",
+      "metaTitle": "Pokemon Champions Mechanics - Abilities, Items & Battle Interactions",
+      "metaDescription": "Understand Pokemon Champions battle mechanics including Innards Out, Stalwart, Unseen Fist, Mega abilities, and key held item interactions for competitive play.",
+      "categoryLabel": "MECHANICS",
+      "whatIs": "What are Pokemon Champions Mechanics?",
+      "whatIsDescription": "Pokemon Champions mechanics include all battle rules, ability interactions, held item effects, and format-specific behaviors like Mega Evolution activation and ability priority.",
+      "why": "Why learn battle mechanics?",
       "whySteps": {
-        "step1Title": "Optimize Spreads",
-        "step1Description": "Adjust stats to fit your team's speed tiers, bulk requirements, and damage output",
-        "step2Title": "Choose Abilities",
-        "step2Description": "Ability selection is crucial for meta picks like Incineroar's Intimidate or Dragonite's Multiscale",
-        "step3Title": "Customize Moves",
-        "step3Description": "Fine-tune move sets to cover key matchups and support your team's overall strategy"
+        "step1Title": "Master Ability Interactions",
+        "step1Description": "Abilities like Innards Out, Stalwart, and Unseen Fist have unique interactions that can win or lose games",
+        "step2Title": "Use Items Effectively",
+        "step2Description": "Held items like Mega Stones, resist berries, and type boosters require mechanical understanding to use optimally",
+        "step3Title": "Avoid Costly Mistakes",
+        "step3Description": "Knowing edge cases and priority rules prevents in-game errors that cost you ranked points"
       },
       "featured": "Featured & Essential",
-      "all": "All Training Guides"
+      "all": "All Mechanics Articles"
     },
     "rewards": {
-      "title": "Pokemon Champions Rewards Guide",
-      "description": "Complete guide to Mystery Gifts, seasonal rewards, VP earnings, and battle bonuses in Pokemon Champions.",
-      "metaTitle": "Pokemon Champions Rewards - Mystery Gifts, VP & Season Prizes",
-      "metaDescription": "Find all Pokemon Champions rewards including Mystery Gift codes, seasonal rank rewards, VP farming tips, and event bonuses for maximizing your progression.",
+      "title": "Pokemon Champions Rewards & Mystery Gift Codes",
+      "description": "All Pokemon Champions rewards including Mystery Gift codes, seasonal rank prizes, VP earnings, and limited-time event bonuses.",
+      "metaTitle": "Pokemon Champions Rewards - Mystery Gift Codes, VP & Season Prizes",
+      "metaDescription": "Claim all Pokemon Champions rewards. Find active Mystery Gift codes, Starter Pack value, seasonal rank prizes, and event bonus tips for faster progression.",
       "categoryLabel": "REWARDS",
-      "whatIs": "What are Rewards?",
-      "whatIsDescription": "Pokemon Champions offers multiple reward paths: Mystery Gifts (free Pokemon and items), seasonal ranked rewards, VP from battles, and limited-time event bonuses.",
+      "whatIs": "What are Pokemon Champions Rewards?",
+      "whatIsDescription": "Pokemon Champions rewards include Mystery Gifts (free Pokemon like Machamp, Dragonite, and Gardevoir), seasonal ranked prizes, VP earned through battles, and limited-time event bonuses.",
       "why": "Why track rewards?",
       "whySteps": {
-        "step1Title": "Get Free Pokemon",
-        "step1Description": "Mystery Gift codes like CHAMP10N give you free roster additions without spending VP",
+        "step1Title": "Claim Free Pokemon",
+        "step1Description": "Mystery Gift codes like CHAMP10N and no-code bonuses add roster value without spending VP",
         "step2Title": "Earn Season Prizes",
-        "step2Description": "Ranked Battle results determine your season rewards and long-term progression benefits",
+        "step2Description": "Ranked Battle results at season end determine your prizes and progression benefits",
         "step3Title": "Maximize VP Income",
-        "step3Description": "Understanding VP sources helps you recruit faster and build a stronger team more efficiently"
+        "step3Description": "Understanding all VP sources lets you recruit faster and build a competitive team more efficiently"
       },
       "featured": "Featured & Essential",
       "all": "All Reward Guides"
+    },
+    "release": {
+      "title": "Pokemon Champions Release & Platform Info",
+      "description": "Pokemon Champions release dates, platform availability, pricing, developer info, and Switch and Switch 2 launch details.",
+      "metaTitle": "Pokemon Champions Release Date - Switch, Switch 2 & Mobile Info",
+      "metaDescription": "Full Pokemon Champions release information including launch date, Switch and Switch 2 availability, mobile release timeline, pricing, and developer ILCA details.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is Pokemon Champions?",
+      "whatIsDescription": "Pokemon Champions is a free-to-start competitive battle game developed by ILCA and published by The Pokemon Company. It launched on April 8, 2026, for Nintendo Switch and Switch 2.",
+      "why": "Why read release info?",
+      "whySteps": {
+        "step1Title": "Know the Launch Details",
+        "step1Description": "Understand the April 8, 2026 Switch launch and what platform differences to expect",
+        "step2Title": "Check Platform Availability",
+        "step2Description": "Learn which features are available on Switch vs Switch 2 and the mobile release timeline",
+        "step3Title": "Understand the Developer",
+        "step3Description": "ILCA's development background and design philosophy explain many of Pokemon Champions' competitive-first decisions"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "home": {
+      "title": "Pokemon Champions Pokemon HOME Guide",
+      "description": "How to link Pokemon HOME to Pokemon Champions, transfer eligible Pokemon, and manage your collection across both apps.",
+      "metaTitle": "Pokemon Champions Pokemon HOME - Transfer Guide & Eligibility",
+      "metaDescription": "Learn how to connect Pokemon HOME to Pokemon Champions. Step-by-step transfer instructions, eligible Pokemon list, and return rules explained.",
+      "categoryLabel": "POKEMON HOME",
+      "whatIs": "What is Pokemon HOME in Pokemon Champions?",
+      "whatIsDescription": "Pokemon HOME integration in Pokemon Champions lets you transfer eligible Pokemon from your HOME library directly into competitive play, bypassing the in-game Roster Ranch recruitment system.",
+      "why": "Why use Pokemon HOME with Pokemon Champions?",
+      "whySteps": {
+        "step1Title": "Expand Your Roster Instantly",
+        "step1Description": "Bring Pokemon you already own from HOME into Pokemon Champions without spending VP on recruitment",
+        "step2Title": "Access Rare Competitive Pokemon",
+        "step2Description": "Some strong meta picks are rare through in-game recruitment but easy to transfer if you have them in HOME",
+        "step3Title": "Understand Return Rules",
+        "step3Description": "Learn when and how Pokemon can return to HOME storage and what changes apply during their visit"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Pokemon HOME Guides"
     }
   }
 }

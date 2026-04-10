@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guide": "Гайды",
+    "roster": "Ростер",
+    "teams": "Команды",
+    "meta": "Мета",
+    "mechanics": "Механики",
+    "rewards": "Награды",
+    "release": "Релиз",
+    "home": "Pokemon HOME"
   },
   "common": {
     "home": "Главная",

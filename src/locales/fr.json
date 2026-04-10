@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Fabrication",
-    "items": "Objets",
-    "biomes": "Biomes",
-    "building": "Construction",
-    "support": "Support"
+    "guide": "Guides",
+    "roster": "Effectif",
+    "teams": "Équipes",
+    "meta": "Méta",
+    "mechanics": "Mécaniques",
+    "rewards": "Récompenses",
+    "release": "Sortie",
+    "home": "Pokemon HOME"
   },
   "common": {
     "home": "Accueil",

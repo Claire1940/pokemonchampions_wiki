@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Rehberler",
+    "roster": "Kadro",
+    "teams": "Takımlar",
+    "meta": "Meta",
+    "mechanics": "Mekanikler",
+    "rewards": "Ödüller",
+    "release": "Çıkış",
+    "home": "Pokemon HOME"
   },
   "common": {
     "home": "Ana Sayfa",

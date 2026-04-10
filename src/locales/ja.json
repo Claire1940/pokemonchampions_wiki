@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "ガイド",
+    "roster": "ロスター",
+    "teams": "チーム",
+    "meta": "メタ",
+    "mechanics": "システム",
+    "rewards": "報酬",
+    "release": "リリース",
+    "home": "Pokemon HOME"
   },
   "common": {
     "home": "ホーム",
