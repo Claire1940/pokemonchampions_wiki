@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  pokemonChampionsMysteryGiftCodes: { field: 'items', nameKey: 'reward' },
+  pokemonChampionsBeginnerGuide: { field: 'steps', nameKey: 'title' },
+  pokemonChampionsStarterTeams: { field: 'items', nameKey: 'starter' },
+  pokemonChampionsTierList: { field: 'sTier', nameKey: 'pokemon' },
+  pokemonChampionsBestTeams: { field: 'items', nameKey: 'card_title' },
+  pokemonChampionsRankedBattlesGuide: { field: 'items', nameKey: 'topic' },
+  pokemonChampionsPokemonHomeGuide: { field: 'steps', nameKey: 'title' },
+  pokemonChampionsAllPokemonList: { field: 'items', nameKey: 'section' },
+  pokemonChampionsTrainingGuide: { field: 'steps', nameKey: 'title' },
+  pokemonChampionsMovesetsAndBestBuilds: { field: 'items', nameKey: 'pokemon' },
+  pokemonChampionsMegaEvolutionGuide: { field: 'steps', nameKey: 'title' },
+  pokemonChampionsHeldItemsGuide: { field: 'items', nameKey: 'itemOrGroup' },
+  pokemonChampionsSeasonsAndRegulations: { field: 'items', nameKey: 'title' },
+  pokemonChampionsSingleBattleVsDoubleBattle: { field: 'items', nameKey: 'aspect' },
+  pokemonChampionsBattlePassAndPremiumGuide: { field: 'items', nameKey: 'product' },
+  pokemonChampionsPrivateBattlesAndOnlineCompetitions: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  pokemonChampionsMysteryGiftCodes: ['mystery gift', 'codes', 'machamp', 'dragonite', 'reward'],
+  pokemonChampionsBeginnerGuide: ['beginner', 'guide', 'starter', 'lineup', 'battle structure'],
+  pokemonChampionsStarterTeams: ['starter', 'team', 'gardevoir', 'pikachu', 'recruit'],
+  pokemonChampionsTierList: ['tier list', 'ranked', 'garchomp', 'best pokemon', 'meta'],
+  pokemonChampionsBestTeams: ['best teams', 'replica', 'charizard', 'rain palafin', 'copy team'],
+  pokemonChampionsRankedBattlesGuide: ['ranked', 'battle', 'matchmaking', 'ranking', 'format'],
+  pokemonChampionsPokemonHomeGuide: ['pokemon home', 'connect', 'link', 'nintendo account'],
+  pokemonChampionsAllPokemonList: ['all pokemon', 'roster', 'available', 'complete list'],
+  pokemonChampionsTrainingGuide: ['training', 'vp income', 'roster ranch', 'ev training'],
+  pokemonChampionsMovesetsAndBestBuilds: ['movesets', 'builds', 'incineroar', 'archaludon'],
+  pokemonChampionsMegaEvolutionGuide: ['mega evolution', 'mega stone', 'charizard', 'evolution'],
+  pokemonChampionsHeldItemsGuide: ['held items', 'berries', 'type booster', 'item list'],
+  pokemonChampionsSeasonsAndRegulations: ['seasons', 'regulations', 'regulation', 'season pass'],
+  pokemonChampionsSingleBattleVsDoubleBattle: ['single battle', 'double battle', 'format', 'vgc'],
+  pokemonChampionsBattlePassAndPremiumGuide: ['battle pass', 'premium', 'season pass', 'rewards'],
+  pokemonChampionsPrivateBattlesAndOnlineCompetitions: ['private battles', 'online competition', 'tournament'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['pokemon', 'champions', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Pokemon Champions")
+  const strippedQuery = normalizedQuery.replace(/pokemon champions?\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/pokemon champions?\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
