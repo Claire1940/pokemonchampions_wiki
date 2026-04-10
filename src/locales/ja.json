@@ -1,755 +1,1111 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Pokemon Champions - Battle Modes, HOME Transfer & Meta",
+      "description": "Pokemon Champions hub for battle modes, HOME transfer, Mega Evolution, rewards, regulations, and VGC-ready team guides for Switch and mobile players.",
+      "keywords": "Pokemon Champions, Switch, battle modes, HOME transfer, Mega Evolution, rewards, regulations",
+      "ogTitle": "Pokemon Champions - Battle Modes, HOME Transfer & Meta",
+      "ogDescription": "Pokemon Champions hub for battle modes, HOME transfer, Mega Evolution, rewards, regulations, and VGC-ready team guides for Switch and mobile players.",
+      "twitterTitle": "Pokemon Champions - Battle Modes, HOME Transfer & Meta",
+      "twitterDescription": "Pokemon Champions hub for battle modes, HOME transfer, Mega Evolution, rewards, regulations, and VGC-ready team guides for Switch players."
     }
   },
   "nav": {
-    "guide": "ガイド",
-    "roster": "ロスター",
-    "teams": "チーム",
-    "meta": "メタ",
-    "mechanics": "システム",
-    "rewards": "報酬",
-    "release": "リリース",
+    "guide": "Guides",
+    "roster": "Roster",
+    "teams": "Teams",
+    "meta": "Meta",
+    "mechanics": "Mechanics",
+    "rewards": "Rewards",
+    "release": "Release",
     "home": "Pokemon HOME"
   },
   "common": {
-    "home": "ホーム",
-    "more": "もっと見る",
-    "playNow": "Steamでプレイ",
-    "switchLanguage": "言語を切り替える",
-    "switchTheme": "テーマを切り替える",
-    "lightMode": "ライトモード",
-    "darkMode": "ダークモード",
-    "notFound": "ページが見つかりません",
-    "notFoundDescription": "お探しのページは存在しません。",
-    "backToHome": "ホームに戻る",
-    "relatedArticles": "関連記事",
-    "readMore": "続きを読む"
+    "home": "Home",
+    "more": "More",
+    "playNow": "Play Pokemon Champions",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "Free-to-Start Competitive Battle Game",
+    "title": "Pokémon Champions",
+    "description": "Battle-focused Pokémon game for Switch and Switch 2 with Ranked, Casual, and Private Battles, Pokémon HOME transfers, Mega Evolution, seasonal rules, and official VGC support.",
+    "getFreeCodesCTA": "Learn Battle Modes",
+    "playOnSteamCTA": "Official Site",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "Apr 8 2026",
+        "label": "Switch Launch"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "10",
+        "label": "Supported Languages"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "3",
+        "label": "Battle Modes"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "2",
+        "label": "Battle Formats"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Pokemon Champions Gameplay",
+    "description": "Build your team, climb the ranked ladder, transfer from Pokémon HOME, and master Mega Evolution in this free-to-start competitive battle game on Nintendo Switch."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "title": "Pokemon Champions",
+    "titleHighlight": "Resources",
+    "subtitle": "Everything you need to build your team, earn rewards, and master competitive battles in Pokemon Champions",
     "cards": [
       {
+        "icon": "Gift",
+        "title": "Pokemon Champions Mystery Gift Codes",
+        "description": "Claim Machamp, Dragonite, and Gardevoir before they expire"
+      },
+      {
         "icon": "BookOpen",
-        "title": "初心者ガイド",
-        "description": "最初のステップ、探索、序盤の進め方"
+        "title": "Pokemon Champions Beginner Guide",
+        "description": "Team building, VP, Roster Ranch, and Mega Evolution explained"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis クラフト",
-        "description": "フリーフォーム・フュージョンシステムと序盤のレシピ"
+        "icon": "Users",
+        "title": "Pokemon Champions Starter Teams",
+        "description": "Compare all 10 starter lineups and pick the right opener"
       },
       {
-        "icon": "Hammer",
-        "title": "ツールと武器",
-        "description": "フロストピック、アズラエル、__PROTECTED_6a765cb2__、その他"
-      },
-      {
-        "icon": "Package",
-        "title": "ストレージとインベントリ",
-        "description": "キャッシュキューブ、キャビネット、クオリアストレージ"
-      },
-      {
-        "icon": "Home",
-        "title": "クオリアと拠点建築",
-        "description": "パーソナルクオリアと拠点のセットアップ"
-      },
-      {
-        "icon": "Eye",
-        "title": "ワールドエリア",
-        "description": "Fog Meadow、エッセンスの沼地、その他"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "クリーチャーと敵",
-        "description": "マネキン、クモ、そして生き残る方法"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "移動用装備",
-        "description": "__PROTECTED_6a765cb2__、グライダーグローブ、__PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "農業と成長",
-        "description": "種の進行と素材集め"
-      },
-      {
-        "icon": "Star",
-        "title": "序盤のおすすめアンロック",
-        "description": "プレイ開始1時間で優先すべきアップグレード"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "実績トラッカー",
-        "description": "全19個のSteamの実績と解除条件"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "シングルプレイヤーFAQ",
-        "description": "プラットフォーム、価格、協力プレイ、言語に関する質問"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deckとコントローラー",
-        "description": "Proton 9.0.4のセットアップとコントローラーのヒント"
-      },
-      {
-        "icon": "Settings",
-        "title": "設定とアクセシビリティ",
-        "description": "手の非表示、__PROTECTED_38625270__、表示オプション"
-      },
-      {
-        "icon": "Clock",
-        "title": "アップデートとパッチノート",
-        "description": "最近の修正とロードマップ"
+        "icon": "Trophy",
+        "title": "Pokemon Champions Tier List",
+        "description": "S and A-tier picks for Singles, Doubles, and Mega play"
       },
       {
         "icon": "Shield",
-        "title": "クラッシュ修正",
-        "description": "__PROTECTED_38625270__の確認、ログのパス、バグ報告"
+        "title": "Pokemon Champions Best Teams",
+        "description": "Copy proven replica team codes for fast-track competitive play"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Pokemon Champions Ranked Battles Guide",
+        "description": "VP rewards, rank ladder, seasons, and esports rules explained"
+      },
+      {
+        "icon": "Home",
+        "title": "Pokemon Champions Pokemon HOME Guide",
+        "description": "Step-by-step HOME linking, eligible transfers, and return rules"
+      },
+      {
+        "icon": "Star",
+        "title": "Pokemon Champions All Pokemon List",
+        "description": "Launch roster, Mega forms, regional variants, and transfer limits"
+      },
+      {
+        "icon": "Target",
+        "title": "Pokemon Champions Training Guide",
+        "description": "VP income, stat training, and role-based builds for your roster"
+      },
+      {
+        "icon": "Swords",
+        "title": "Pokemon Champions Movesets and Best Builds",
+        "description": "Incineroar, Archaludon, Salamence, and Maushold meta builds"
+      },
+      {
+        "icon": "Zap",
+        "title": "Pokemon Champions Mega Evolution Guide",
+        "description": "How to equip Mega Stones and activate Mega Evolution in battle"
+      },
+      {
+        "icon": "Package",
+        "title": "Pokemon Champions Held Items Guide",
+        "description": "Type boosters, resist berries, and high-impact utility items explained"
+      },
+      {
+        "icon": "Calendar",
+        "title": "Pokemon Champions Seasons and Regulations",
+        "description": "Season M-1, Regulation M-A, and VGC competition schedule at a glance"
+      },
+      {
+        "icon": "Scale",
+        "title": "Pokemon Champions Single Battle vs Double Battle",
+        "description": "Compare formats and choose where to focus your competitive training"
+      },
+      {
+        "icon": "CreditCard",
+        "title": "Pokemon Champions Battle Pass and Premium Guide",
+        "description": "Battle Pass, Membership, and Starter Pack value compared side by side"
+      },
+      {
+        "icon": "Globe",
+        "title": "Pokemon Champions Private Battles and Online Competitions",
+        "description": "Host friend rooms, join official events, and enter online competitions"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks 初心者ガイド",
-      "displayType": "steps",
-      "intro": "まずは探索、融合、そして進行がどのように繋がっているかを学ぶことから始めましょう。Lucid Blocks では試行錯誤が報われます。序盤の進行は、珍しい素材を集め、組み合わせを試し、自分だけのクオリアを解放することから始まります。",
-      "steps": [
-        {
-          "title": "本格的に動く前に探索する",
-          "description": "外へ歩き出し、一般的なブロックを採掘し、見つけた奇妙なドロップアイテムはすべて取っておきましょう。序盤の進行は、決まったクエストをこなすことよりも、素材が何に変化するかを発見することに重点が置かれています。"
-        },
-        {
-          "title": "早めに自分専用のクオリアを解放する",
-          "description": "自分専用のクオリアは、序盤で最も重要なマイルストーンの一つです。体制を立て直し、拠点を構築するための信頼できる場所となります。"
-        },
-        {
-          "title": "序盤の素早い進行にオスミウムを活用する",
-          "description": "オスミウムは序盤で最も役立つ素材の一つです。オスミウムと棒を組み合わせて、素早い採掘が可能な「フロストピック」を作るのが人気の序盤ルートです。"
-        },
-        {
-          "title": "優れた融合を記録する",
-          "description": "成功した組み合わせはジャーナルに記録しておきましょう。Lucid Blocks には膨大な融合パターンがあるため、有用な結果を書き留めておくことで大幅な時間の節約になります。"
-        }
-      ],
-      "quickTips": [
-        "Apotheosis には固定のレシピリストは必要ありません。",
-        "無限に生成される世界では、より高く、あるいはより深く移動することで、全く異なる素材が見つかることがあります。",
-        "移動ツールやユーティリティ装備を解放し始めると、プレイの快適さが劇的に向上します。",
-        "序盤に迷うのは普通のことですが、最初の優れた融合が成功すれば、便利なツール、ストレージ、移動手段が次々と手に入るようになります。"
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis クラフト",
-      "displayType": "cards",
-      "intro": "Apotheosis は、このゲームの制限のない融合システムです。従来のレシピ本を暗記する代わりに、素材を組み合わせ、結果を観察し、時間をかけて自分だけのクラフト知識を築き上げていきます。",
-      "cards": [
-        {
-          "name": "フリーフォームな融合",
-          "description": "Apotheosis では、固定のレシピリストに従うことなく、さまざまなアイテムを融合させることができます。"
-        },
-        {
-          "name": "複数の有用な結果",
-          "description": "素材によって、特定の結果に繋がりやすい傾向があります。コミュニティの発見によれば、似たような投入素材からでも、実用的なツール、ストレージ、あるいは戦闘用のアップグレードを作成可能です。"
-        },
-        {
-          "name": "ジャーナル優先のクラフト",
-          "description": "Apotheosis を学ぶ最良の方法は、成功した組み合わせを記録することです。ジャーナルはすぐにあなた専用のクラフトリファレンスになります。"
-        },
-        {
-          "name": "コミュニティ検証済みの序盤の融合",
-          "description": "序盤の代表例としては、オスミウム＋棒で「フロストピック」、棒＋タングステンの付属肢で「アズラエル」、アズラエル＋磁鉄鉱で「触手レイピア」などが挙げられます。"
-        }
-      ],
-      "milestones": [
-        "アイテムを融合させる",
-        "害獣を融合させる",
-        "神聖なアーティファクトを融合させる"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks ツールと武器",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks では、公式のユーティリティ装備とコミュニティが発見した序盤の武器が混在しています。最適なセットアップは通常、素早い採掘、安全な移動、そして信頼できる戦闘手段を組み合わせたものです。",
+    "pokemonChampionsMysteryGiftCodes": {
+      "title": "Pokemon Champions ふしぎなおくりものシリアルコード",
+      "eyebrow": "無料報酬",
+      "subtitle": "VPを消費する前に、まずは現在配布中の無料特典から始めましょう。ローンチ時には、1つのシリアルコードと2つのコード不要ボーナスが用意されています。",
+      "intro": "ふしぎなおくりものは、VPを消費せずに戦力を強化できるため、Pokemon Champions における序盤最速のブースト手段です。チュートリアルを終えて最初のチームを編成したら、「サブメニュー」＞「ふしぎなおくりもの」を開き、「メールボックス」から受け取った報酬を回収しましょう。",
       "items": [
         {
-          "name": "フロストピック",
-          "type": "採掘ツール",
-          "description": "オスミウムと棒から作られる、高速で安価な序盤用ピッケル。プレイヤーはこれを使って序盤の素材集めを加速させます。"
+          "reward": "カイリキー",
+          "code": "CHAMP10N",
+          "status": "有効",
+          "howToGet": "「ふしぎなおくりもの」メニューでシリアルコード/あいことばを入力し、「メールボックス」から受け取ってください。",
+          "availableUntil": "2026年8月31日",
+          "whyItMatters": "これは主要なローンチ記念コードであり、現在確認されている唯一の公開シリアルコードです。"
         },
         {
-          "name": "アズラエル",
-          "type": "初期武器",
-          "description": "棒とタングステンの付属肢からクラフトできる、実用的な序盤の武器ルートです。"
+          "reward": "カイリュー + クイッククーポン 100枚",
+          "code": "なし",
+          "status": "有効",
+          "howToGet": "早期ダウンロード期間中に Pokemon Champions をプレイする。",
+          "availableUntil": "2026年8月31日",
+          "whyItMatters": "カイリューは序盤の戦力として非常に優秀で、クイッククーポンはスカウトの回転率を上げるのに役立ちます。"
         },
         {
-          "name": "触手レイピア",
-          "type": "強化武器",
-          "description": "アズラエルと磁鉄鉱を組み合わせて作る強力な発展武器。プレイヤー間で共有されている、序盤から中盤にかけて最も有用な戦闘ルートの一つです。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "移動能力と垂直方向の探索を大幅に向上させる公式の移動アイテムです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "より安全かつ効率的に距離を移動するのに役立つ公式の移動アイテムです。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ武器",
-          "description": "戦闘やパズルの選択肢を広げる公式の遠距離ユーティリティアイテムです。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "移動装備",
-          "description": "通常は探索が困難な場所へ到達するための公式ユーティリティアイテムです。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "中核となるツールセットの一部として公式に推奨されており、脅威や障害物を突破するのに役立ちます。"
+          "reward": "サーナイト + クイッククーポン 100枚",
+          "code": "なし",
+          "status": "ライブイベント",
+          "howToGet": "「ウォームアップチャレンジ」イベントで3回バトルを行う。",
+          "availableUntil": "2026年4月13日",
+          "whyItMatters": "序盤の環境で即戦力となるポケモンと、スカウトを加速させるアイテムの両方が手に入るため、短期間で得られる最高の報酬です。"
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks ストレージとインベントリ",
-      "displayType": "solutionCards",
-      "intro": "Lucid Blocks では早い段階からインベントリが圧迫されるため、ストレージの構築を優先目標にすべきです。実際のプレイヤーによって検証されたいくつかの解決策がすでに確立されています。",
-      "solutions": [
-        {
-          "name": "キャッシュキューブ",
-          "role": "チェスト型ストレージ",
-          "description": "キャッシュキューブは最も初期に利用可能な実用的なストレージであり、プレイヤーの間ではゲーム内の主要なチェスト型コンテナとして扱われています。"
-        },
-        {
-          "name": "キャビネット",
-          "role": "簡易拠点ストレージ",
-          "description": "キャビネットも確認されているストレージの選択肢です。共有されている序盤のレシピでは、カットウッド1つと紐1つを使用します。"
-        },
-        {
-          "name": "個人用クオリア",
-          "role": "長期ストレージハブ",
-          "description": "解放されると、個人用クオリアは素材を整理し、落ち着いてクラフトを行い、拠点を拡張するための自然な拠点となります。"
-        },
-        {
-          "name": "ジャーナルによる追跡",
-          "role": "インベントリの効率化",
-          "description": "有用な組み合わせをジャーナルに記録することで、素材の無駄を減らし、インベントリ管理を大幅に楽にすることができます。"
-        }
-      ],
-      "managementTips": [
-        "レアなドロップ品を溜め込む前に、信頼できるストレージを一つ確保することを優先しましょう。",
-        "個人用クオリアが利用可能になったら、そこを中心に構築を進めましょう。",
-        "クラフト素材、戦闘ツール、移動装備を分けて保管することで、アップグレードの計画が立てやすくなります。",
-        "ジャーナルを単なるクラフトの発見用ではなく、インベントリ管理の一部として活用しましょう。"
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks クオリアと拠点建築",
-      "displayType": "cards",
-      "intro": "クオリアは Lucid Blocks における最も重要な進行マイルストーンの一つです。体制を整え、素材を保管し、探索の成果を徐々に本格的な拠点へと変えていくための個人空間を提供します。",
-      "cards": [
-        {
-          "name": "個人用クオリア",
-          "description": "クオリアの解放は序盤のマイルストーンであり、広い世界を探索する中で戻ってくるための信頼できる場所となります。"
-        },
-        {
-          "name": "ストレージ優先の建築",
-          "description": "多くのプレイヤーは、整理されたクラフトスペースや建築スペースを持つ大きな拠点にする前に、まずクオリアをストレージハブとして使い始めます。"
-        },
-        {
-          "name": "クリエイティブな自宅建築",
-          "description": "Lucid Blocks はクリエイティブな建築をサポートしており、プレイヤーはすでにクオリアの空間を利用して家やパーソナライズされたレイアウトを作成しています。"
-        },
-        {
-          "name": "進行のハブ",
-          "description": "強力な拠点は、探索で得た戦利品、クラフト素材、種、ツール、移動装備を分類するのに役立ち、次のアップグレード計画を容易にします。"
-        }
-      ],
-      "highlights": [
-        "クオリアに入る",
-        "素材を安全に保管する",
-        "実用性から装飾へと拡張する",
-        "拠点のスペースを活用してクラフトや農業を支援する"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks 世界の地域",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks は無限の世界生成を採用しているため、プレイヤーは常に新しい環境や構造物を発見し続けています。実績やコミュニティの議論には、すでにいくつかの地名が登場しています。",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "コミュニティ注目エリア",
-          "description": "Fog Meadow は、隠れた脅威や危険な遭遇に関連する緊張感のあるエリアとして、プレイヤーの間ですでに知られています。"
-        },
-        {
-          "name": "ティアマナ・レイライン",
-          "type": "発見ランドマーク",
-          "description": "ティアマナ・レイラインは独自の実績マイルストーンを持つほど重要であり、これまでに判明している中で最も明確な名前付きの発見場所の一つです。"
-        },
-        {
-          "name": "クロナクオリア",
-          "type": "建築スペース",
-          "description": "プレイヤーはすでにクロナクオリアを、家を建てたり、素材を保管したり、より永続的なレイアウトを試したりする場所として利用しています。"
-        },
-        {
-          "name": "エッセンスの沼地",
-          "type": "ファーミングエリア",
-          "description": "エッセンスの沼地は、特にスライムとの戦闘や経験値稼ぎに役立つファーミング場所としてプレイヤー間で共有されています。"
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks クリーチャーと敵",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks は超現実的なクリーチャーと現実的な危険が混ざり合っています。公式の説明やコミュニティの投稿は、奇妙な生命、敵対的な脅威、そしてプレイヤーがすぐに覚えるような印象的な遭遇に満ちた世界を指し示しています。",
-      "creatures": [
-        {
-          "name": "マネキン",
-          "role": "敵対的な敵",
-          "description": "マネキンはこの世界における公式な名前を持つ敵の一つであり、ゲームの超現実的な脅威リストの一部です。"
-        },
-        {
-          "name": "ぷにぷにジェル",
-          "role": "敵対的な敵",
-          "description": "ぷにぷにジェルも公式な名前を持つ敵タイプであり、ゲームの奇妙な生物学的スタイルを象徴しています。"
-        },
-        {
-          "name": "高次元の存在",
-          "role": "敵対的な敵",
-          "description": "これらの存在は、世界のより抽象的で不安をかき立てる敵ラインナップの一部として登場します。"
-        },
-        {
-          "name": "巨大クモ",
-          "role": "主要な脅威",
-          "description": "クモはコミュニティの議論で最も即座に恐れられている敵の一つであり、明らかに記憶に残る危険な存在です。"
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "名前付きクリーチャー",
-          "description": "__PROTECTED_26ee183b__ は独自の実績を持つほど注目に値し、ゲーム内で最も明確な名前付きクリーチャーとの遭遇の一つです。"
-        },
-        {
-          "name": "可愛い害獣",
-          "role": "インタラクティブな生物",
-          "description": "害獣は融合の進行に関わるだけでなく、名前を付けることもでき、標準的な敵よりも個人的な役割を持ちます。"
-        },
-        {
-          "name": "冒涜的なクリーチャー",
-          "role": "エリートの脅威",
-          "description": "冒涜的なクリーチャーは専用の戦闘実績に関連付けられており、重要な敵との遭遇として位置づけられています。"
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks 移動装備",
-      "displayType": "itemCards",
-      "intro": "移動手段のアップグレードは、Lucid Blocks におけるプレイの快適さを最も大きく向上させる要素の一つです。最初の移動ツールを解放すれば、探索はより速く、より安全に、そしてより実りあるものになります。",
-      "items": [
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、専用の実績も用意されています。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "type": "空中移動",
-          "description": "グライダーグローブはよりスムーズな移動を可能にし、独自の実績を持つもう一つの主要な進行マイルストーンです。"
-        },
-        {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "ビィ・グライダーは、効率的に距離を移動するための移動ツールキットの一部として公式に推奨されています。"
-        },
-        {
-          "name": "ボールワンド",
-          "type": "ユーティリティ装備",
-          "description": "ボールワンドは公式に推奨されている特殊ツールの一つで、世界を移動したり干渉したりする方法を広げてくれます。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "探索装備",
-          "description": "スキューバダイビングギアは、通常では探索が困難なエリアに到達するための中核的なユーティリティセットとして公式にリストされています。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "爆発物は公式に推奨されていると同時に実績マイルストーンにも関連付けられており、ゲームの中核的なユーティリティ進行の一部となっています。"
-        }
-      ],
-      "unlockMilestones": [
-        "フックショットを使いこなす",
-        "グライダーグローブで空を飛ぶ",
-        "投射物ワンドを構える",
-        "爆発物を構える"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks 農業と成長",
-      "displayType": "mixedCards",
-      "intro": "成長は Lucid Blocks における真の進行の一部です。農業は単に植えて収穫するだけでなく、ツール、武器、クラフトの選択肢を維持するための反復可能な素材ルートを確立することでもあります。",
-      "sections": [
-        {
-          "name": "種の進行",
-          "description": "種を植えて肥料を与えることはゲーム内の重要なマイルストーンであり、完全に成長したナッツを収穫することも同じ成長パスの一部です。"
-        },
-        {
-          "name": "素材ファーミング",
-          "description": "実用的な序盤のファーミングループは「水銀カプセル」を作成することです。これにより、反復可能なクラフト素材となる触手やグーをドロップする小さなスライムが出現します。"
-        },
-        {
-          "name": "ツールの維持",
-          "description": "オスミウム、ガラスの破片、植物、スライム素材を安定して集められるようになると、その後のクラフトのための資源ファーミングがより強力になります。"
-        },
-        {
-          "name": "拠点のルーチン",
-          "description": "最適な農業セットアップは食料以上のものを支えます。ストレージ、移動ツール、武器のアップグレード、そして将来の融合実験に供給されるべきです。"
-        }
-      ],
-      "growthMilestones": [
-        "種に肥料を与える",
-        "完全に成長したナッツを収穫する",
-        "反復可能な素材ループを作成する",
-        "農業を長期的な進行に組み込む"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks おすすめの序盤解放要素",
-      "displayType": "priorityCards",
-      "intro": "最強の序盤解放要素は、安全性、ストレージ、そして移動能力を向上させるものです。Lucid Blocks では、いくつかの実用的なアップグレードがその後のゲームプレイ全体を非常にスムーズにします。",
-      "priorities": [
-        {
-          "name": "個人用クオリア",
-          "priority": "必須",
-          "description": "個人用クオリアにアクセスできるようになると、プレイが格段に安定します。ストレージ、建築、体制の立て直しのための信頼できるハブとして機能します。"
-        },
-        {
-          "name": "フロストピック",
-          "priority": "極めて高い",
-          "description": "オスミウムと棒で作れる、高速で安価な序盤の採掘ツール。序盤の資源収集を加速させるために最も有用なアップグレードの一つです。"
-        },
-        {
-          "name": "キャッシュキューブ",
-          "priority": "極めて高い",
-          "description": "インベントリの圧迫は早くから始まるため、最初の信頼できるチェスト型コンテナを手に入れることは、プレイの快適さを大きく向上させます。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "高い",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、探索をより速く、より安全にします。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "priority": "高い",
-          "description": "グライダーグローブはもう一つの大きな機動力ブーストをもたらし、長距離の移動をはるかに効率的にします。"
-        },
-        {
-          "name": "投射物ワンドまたは爆弾",
-          "priority": "高い",
-          "description": "遠距離ツールや爆発物の選択肢を持つことで、危険な敵や試練形式の遭遇に対してより安全に対処できるようになります。"
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks 実績トラッカー",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks には現在 19 個の Steam 実績があり、それらは探索、クラフト、移動、戦闘、成長の進行に自然に分類されます。",
-      "groups": [
-        {
-          "name": "探索",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "クオリアに入る。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "ティアマナ・レイラインを発見する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "ティアマナの試練を乗り越える。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "隠し実績。"
-            }
-          ]
-        },
-        {
-          "name": "クラフトと召喚",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "アイテムを融合させる。"
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "害獣を融合させる。"
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "神聖なアーティファクトを融合させる。"
-            },
-            {
-              "title": "Archangel β",
-              "description": "信仰を召喚する。"
-            }
-          ]
-        },
-        {
-          "name": "移動とユーティリティ",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "グライダーグローブで空を飛ぶ。"
-            },
-            {
-              "title": "Virtue β",
-              "description": "フックショットを使いこなす。"
-            },
-            {
-              "title": "Archangel α",
-              "description": "投射物ワンドを構える。"
-            },
-            {
-              "title": "Archangel γ",
-              "description": "爆発物を構える。"
-            }
-          ]
-        },
-        {
-          "name": "戦闘とクリーチャー",
-          "achievements": [
-            {
-              "title": "__PROTECTED_26ee183b__ の虐殺",
-              "description": "罪のないバブルベアを倒す。"
-            },
-            {
-              "title": "Archangel δ",
-              "description": "冒涜的なクリーチャーを排除する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "死亡する。"
-            },
-            {
-              "title": "Dominion γ",
-              "description": "可愛い害獣に名前を付ける。"
-            }
-          ]
-        },
-        {
-          "name": "成長と農業",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "種に肥料を与える。"
-            },
-            {
-              "title": "Dominion β",
-              "description": "完全に成長したナッツを収穫する。"
-            },
-            {
-              "title": "Dominion δ",
-              "description": "隠し実績。"
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks シングルプレイヤーおよびプラットフォーム FAQ",
-      "displayType": "accordion",
-      "intro": "これらは、Lucid Blocks を購入する前にプレイヤーからよく寄せられる、プラットフォームとアクセスに関する核心的な質問です。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks はシングルプレイヤーですか？",
-          "answer": "はい。Lucid Blocks はシングルプレイヤー専用ゲームです。"
-        },
-        {
-          "question": "マルチプレイヤーや協力プレイの予定はありますか？",
-          "answer": "いいえ。リリース時および将来のアップデートにおいて、マルチプレイヤーの予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はどこでプレイできますか？",
-          "answer": "現在は Windows 用に Steam で配信されています。"
-        },
-        {
-          "question": "Lucid Blocks の価格はいくらですか？",
-          "answer": "Steam で 9.99 ドルです。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Steam Deck では、Proton 9.0 または 9.0.4 の使用が一般的に推奨されています。"
-        },
-        {
-          "question": "Lucid Blocks は Linux で動作しますか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "Mac や Android はサポートされますか？",
-          "answer": "将来的にサポートされる可能性はありますが、現時点でのローンチプラットフォームではありません。"
-        },
-        {
-          "question": "Lucid Blocks に翻訳はありますか？",
-          "answer": "いいえ。現在、翻訳の予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はアップデートされ続けますか？",
-          "answer": "はい。リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck とコントローラー",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks は Steam Deck で動作しますが、デフォルト設定では調整が必要な場合があります。メニュー操作や一般的なプレイにおいては、キーボードとマウスの方がスムーズです。",
-      "faqs": [
-        {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Proton 9.0 で良好に動作します。また、Proton 9.0.4 は Steam Deck の問題に対する一般的な修正方法として共有されています。"
-        },
-        {
-          "question": "Steam Deck の操作が効かない場合はどうすればよいですか？",
-          "answer": "互換性設定を強制し、ゲームを Proton 9.0.4 に切り替えてください。デフォルト設定ではコントローラー入力が正しく受け付けられない場合があります。"
-        },
-        {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、ゲームのメニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
-        },
-        {
-          "question": "Linux のサポートは可能ですか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "最適な入力設定は何ですか？",
-          "answer": "メニューのナビゲーションや一般的なプレイにおいては、キーボードとマウスが最もスムーズな選択肢です。"
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks 設定とアクセシビリティ",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks には、プレイヤーが最初にゲームを起動した際に重要となる、いくつかの実用的な設定と互換性に関する注意点があります。",
-      "settings": [
-        {
-          "name": "ディスプレイ設定",
-          "type": "快適性オプション",
-          "description": "ディスプレイ設定には、画面上の手を表示しないようにするオプションが含まれています。"
-        },
-        {
-          "name": "グラフィックスの互換性",
-          "type": "システム要件",
-          "description": "グラフィックスを正しくレンダリングするには __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや深刻なグラフィックの不具合が発生する可能性があります。"
-        },
-        {
-          "name": "入力の好み",
-          "type": "操作設定",
-          "description": "コントローラーのサポートは存在しますが、メニューがコントローラー操作向けに構築されていないため、キーボードとマウスの方がスムーズな体験が得られます。"
-        },
-        {
-          "name": "言語サポート",
-          "type": "ローカライズ",
-          "description": "現在の設定は英語のみであり、現時点では翻訳の予定はありません。"
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks アップデートとパッチノート",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks では、リリース直後の迅速な修正や小規模なユーザビリティのアップデートがすでに行われています。",
-      "entries": [
-        {
-          "title": "アップデート 2.8.2",
-          "type": "UI アップデート",
-          "description": "メインメニューの「awaken（目覚める）」を「exit（終了）」に変更しました。"
-        },
-        {
-          "title": "起動時のクラッシュに関する小規模パッチ",
-          "type": "ホットフィックス",
-          "description": "起動時にゲームがクラッシュしていたプレイヤー向けに、専用のパッチがリリースされました。"
-        },
-        {
-          "title": "リリース後のコンテンツサポート",
-          "type": "ロードマップ注記",
-          "description": "リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks クラッシュ修正とトラブルシューティング",
-      "displayType": "steps",
-      "intro": "起動時やクラッシュに関する差し迫った問題は、パッチレベル、グラフィックスサポート、プラットフォームの互換性、ログの順に確認してください。",
+    "pokemonChampionsBeginnerGuide": {
+      "title": "Pokemon Champions ビギナーガイド",
+      "eyebrow": "スタートガイド",
+      "subtitle": "Pokemon Champions はバトルに特化したゲームです。最初の勝利を掴むためには、チーム編成、VPの流れ、バトルの基本形式を理解することが重要です。このガイドを、チュートリアルから実戦的なランクチーム構築への最短ルートとして活用してください。",
+      "intro": "本編シリーズとは異なり、Pokemon Champions ではいきなり対戦の構造に放り込まれます。序盤は、実用的なラインナップの選択、VPの獲得、賢いスカウト、そしてシングルバトルとダブルバトルの実際の立ち回りを学ぶことが中心となります。",
       "steps": [
         {
-          "title": "最新のクラッシュホットフィックスをインストールする",
-          "description": "起動時にゲームがクラッシュする場合は、まずアップデートを行い、最新の起動クラッシュ用パッチで再度テストしてください。"
+          "title": "先発だけでなく、ラインナップ全体で選ぶ",
+          "description": "最初のスターター選択では5匹の固定チームメイトが付いてくるため、看板ポケモン単体よりもパッケージ全体が重要です。",
+          "details": [
+            "スターターのラインナップは固定されており、ランダムではありません。",
+            "カイリューはどのスターターラインナップにもすぐに追加できます。",
+            "強力なサポート陣は、先発ポケモンそのものよりも重要な場合があります。"
+          ]
         },
         {
-          "title": "__PROTECTED_38625270__ のサポートを確認する",
-          "description": "Lucid Blocks には __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや重大なレンダリングの問題が発生する可能性があります。"
+          "title": "まずバトルの構造を理解する",
+          "description": "ゲームには Ranked Battles、Casual Battles、Private Battles があり、それぞれシングルバトルまたはダブルバトルの形式でプレイできます。",
+          "details": [
+            "Ranked Battles は主要な進行ルートです。",
+            "ランクバトルの結果は、ランク、シーズン報酬、長期的なラダーの成長に影響します。",
+            "Pokemon Champions は Worlds 2026 の公式 VGC ソフトです。"
+          ]
         },
         {
-          "title": "Steam Deck で Proton 9.0.4 を使用する",
-          "description": "Steam Deck で入力や起動の挙動に問題がある場合は、互換性設定を強制し、Proton 9.0.4 に切り替えてください。"
+          "title": "VPを主要な進行通貨として扱う",
+          "description": "Victory Points（VP）は、スカウトと育成の両方に不可欠なゲームの根幹です。",
+          "details": [
+            "VPは Ranked Battles やその他のゲーム内ソースから獲得できます。",
+            "VPを直接購入することはできません。",
+            "序盤のVPは、贅沢なアップグレードよりも、永続的な戦力価値に費やしましょう。"
+          ]
         },
         {
-          "title": "クラッシュログを収集する",
-          "description": "Windows の「ファイル名を指定して実行」を開き、「%APPDATA%」を貼り付けて、lucid blocks/logs フォルダに移動し、トラブルシューティング用の .txt ファイルを収集してください。"
+          "title": "毎日 Roster Ranch を利用する",
+          "description": "Pokémon HOME からインポートしない場合、スカウトがチーム構築の手段となります。",
+          "details": [
+            "VPを使用して、ランダムなラインナップからスカウトします。",
+            "22時間ごとに、VPを消費せずに新しいラインナップが登場します。",
+            "Trial Recruitment は1日1回、VPなしで利用可能です。"
+          ]
         },
         {
-          "title": "問題を正しく報告する",
-          "description": "公式 Discord の bug-reports フォーラム、または Steam コミュニティページで、ログとデバイスの詳細を共有してください。"
+          "title": "お気に入りだけでなく、役割を中心に構築する",
+          "description": "安定したチームには、6匹の独立したアタッカーではなく、物理アタッカー、特殊アタッカー、そしてサポート役が必要です。",
+          "details": [
+            "トレーニングでは、ステータス、特性、技を調整できます。",
+            "Trial Recruitment で獲得したポケモンはトレーニングできません。",
+            "物理アタッカー、特殊アタッカー、サポート役は、それぞれ不可欠な役割を担います。"
+          ]
+        },
+        {
+          "title": "Mega Evolution と Pokémon HOME を大きなパワーアップとして活用する",
+          "description": "最初のランク戦ルールでは Mega Evolution が許可されており、Pokémon HOME を使えば、対象のポケモンを所持している場合に即座に戦力を拡大できます。",
+          "details": [
+            "最初のランク戦ルールでは Mega Evolution が有効です。",
+            "Omni Ring は Mega Evolution に関連するバトルデバイスです。",
+            "Pokemon Champions に登場するポケモンのみが Pokémon HOME から移動可能です。"
+          ]
+        }
+      ]
+    },
+    "pokemonChampionsStarterTeams": {
+      "title": "Pokemon Champions スターターチーム",
+      "eyebrow": "スターター選択",
+      "subtitle": "各スターターは固定のフルラインナップをアンロックするため、最初の選択が従来のポケモンゲーム以上に序盤のラダー体験を左右します。",
+      "intro": "スターターチームの選択は、序盤の大きな決断の一つです。なぜなら、最初に手にする6匹の構成が決まるからです。最も安定した選択肢を求めるならサーナイト、シングルバトルで圧倒的なチーム力が欲しいならピカチュウ、ダブルバトルでのコントロールを重視するならバンギラスが最適です。",
+      "items": [
+        {
+          "starter": "サーナイト",
+          "team": [
+            "ヘラクロス",
+            "ジジーロン",
+            "マリルリ",
+            "アーマーガア",
+            "ユキノオー"
+          ],
+          "bestFor": "万能なオープナー",
+          "formatFit": "バランス",
+          "whyPick": "先発が即戦力として強力で、サポート陣も序盤の対戦で役立ち続けるため、多くのプレイヤーにとって最も安定したスターターです。"
+        },
+        {
+          "starter": "ピカチュウ",
+          "team": [
+            "ドドゲザン",
+            "ガブリアス",
+            "マリルリ",
+            "ギャラドス",
+            "ゲンガー"
+          ],
+          "bestFor": "シングルバトル最強の即戦力チーム",
+          "formatFit": "シングル",
+          "whyPick": "ピカチュウ自身が主役というわけではありません。選ぶ理由は充実したサポート陣にあり、これはゲーム内で最も強力な既成スターターチームの一つです。"
+        },
+        {
+          "starter": "バンギラス",
+          "team": [
+            "ウインディ",
+            "エルフーン",
+            "ジジーロン",
+            "ボスゴドラ",
+            "ニンフィア"
+          ],
+          "bestFor": "最高のダブルバトル用スターター",
+          "formatFit": "ダブル",
+          "whyPick": "「すなおこし」、ウインディの「いかく」、エルフーンの補助、ニンフィアの範囲攻撃により、このラインナップは序盤のダブルバトルで最も明確な戦術を持っています。"
+        },
+        {
+          "starter": "イルカマン",
+          "team": [
+            "ゲンガー",
+            "ボスゴドラ",
+            "スピアー",
+            "ニンフィア",
+            "サザンドラ"
+          ],
+          "bestFor": "交代を駆使する攻撃的なプレイヤー向け",
+          "formatFit": "シングル",
+          "whyPick": "マイティフォルムへの変身タイミングを熟知しているプレイヤーに恩恵をもたらし、サポート陣も即座に攻撃的なプレッシャーを与えます。"
+        },
+        {
+          "starter": "カビゴン",
+          "team": [
+            "ルチャブル",
+            "ユキノオー",
+            "ドドゲザン",
+            "スピアー",
+            "サザンドラ"
+          ],
+          "bestFor": "最も安全な学習曲線",
+          "formatFit": "バランス",
+          "whyPick": "耐久力のある先発と、プレッシャーの少ない環境でゲームを学びたいプレイヤーにとって、寛容な選択肢です。"
+        },
+        {
+          "starter": "リザードン",
+          "team": [
+            "マリルリ",
+            "ハガネール",
+            "エルフーン",
+            "ゲンガー",
+            "ジジーロン"
+          ],
+          "bestFor": "高速でシンプルな攻め",
+          "formatFit": "バランス",
+          "whyPick": "ストレートな攻め、高い素早さ、そして馴染みのある攻撃的なポケモンを求めるプレイヤーにとって使いやすいスターターです。"
+        },
+        {
+          "starter": "グレンアルマ",
+          "team": [
+            "サザンドラ",
+            "ルチャブル",
+            "ハガネール",
+            "ライボルト",
+            "ウツボット"
+          ],
+          "bestFor": "鋭い混合アタッカー編成",
+          "formatFit": "バランス",
+          "whyPick": "このラインナップは攻撃的なプレッシャーを重視しており、安定したユーティリティ型よりも爆発力のある開幕構成を提供します。"
+        },
+        {
+          "starter": "ルカリオ",
+          "team": [
+            "ニンフィア",
+            "ライボルト",
+            "ウツボット",
+            "ギャラドス",
+            "ユキメノコ"
+          ],
+          "bestFor": "柔軟な中堅スタート",
+          "formatFit": "バランス",
+          "whyPick": "ルカリオのパッケージは対応範囲が広く実用的ですが、上位3つのスターターほど即座に支配的ではありません。"
+        },
+        {
+          "starter": "アブソル",
+          "team": [
+            "ユキメノコ",
+            "アーマーガア",
+            "ガブリアス",
+            "ウインディ",
+            "エルフーン"
+          ],
+          "bestFor": "ポテンシャルの高いユーティリティコア",
+          "formatFit": "バランス",
+          "whyPick": "価値の高いサポート役とアタッカーが1つの選択肢にまとまっているため、魅力的なラインナップです。"
+        },
+        {
+          "starter": "チルタリス",
+          "team": [
+            "ドドゲザン",
+            "ウインディ",
+            "ヘラクロス",
+            "ルチャブル",
+            "ウツボット"
+          ],
+          "bestFor": "幅広い対応力を求めるプレイヤー向け",
+          "formatFit": "バランス",
+          "whyPick": "チルタリスのチームは複数の物理アタッカーと、様々な対面で使えるツールセットを提供しますが、メタにおける最強の開幕ではありません。"
+        }
+      ]
+    },
+    "pokemonChampionsTierList": {
+      "title": "Pokemon Champions Tier List",
+      "eyebrow": "Early Meta",
+      "subtitle": "The launch meta is still settling, but a handful of Pokemon already stand out as the most reliable pieces for ladder play. These are the strongest early anchors to recruit, train, or build around first.",
+      "intro": "Early Pokemon Champions team building is less about finding one perfect six and more about locking in a few proven cores. Garchomp and Gardevoir define a lot of early matchups, Dragonite stays premium in both normal and Mega play, and bulky pieces like Hippowdon and Incineroar shape the slower side of the meta.",
+      "sTier": [
+        {
+          "pokemon": "Garchomp",
+          "bestIn": "Singles and Doubles",
+          "whyItWins": "Garchomp brings Earthquake pressure, broad Ground/Rock/Dragon coverage, and Rough Skin chip, making it one of the central early-meta threats.",
+          "howToGet": "Available immediately through the Pikachu starter lineup."
+        },
+        {
+          "pokemon": "Gardevoir",
+          "bestIn": "Singles and Doubles",
+          "whyItWins": "Gardevoir surged early because it checks common Dragon pressure, fits fast offensive teams, and can run Telepathy in Doubles to pair safely with ally spread moves.",
+          "howToGet": "Available through the Gardevoir starter lineup and the live Warm-Up Challenge reward."
+        },
+        {
+          "pokemon": "Dragonite",
+          "bestIn": "Doubles and Mega teams",
+          "whyItWins": "Dragonite is both a strong base mon and a premium Mega option, with Extreme Speed utility and natural synergy beside Earthquake users.",
+          "howToGet": "Every starter path can add Dragonite immediately, and it is also part of the early-download bonus."
+        },
+        {
+          "pokemon": "Hippowdon",
+          "bestIn": "Singles and stall",
+          "whyItWins": "Hippowdon's Ground typing, Sand Stream, Yawn, and Slack Off make it one of the cleanest early defensive anchors for slower teams.",
+          "howToGet": "Recruit from Roster Ranch or bring it in from HOME if eligible."
+        },
+        {
+          "pokemon": "Incineroar",
+          "bestIn": "Doubles",
+          "whyItWins": "Incineroar keeps its classic VGC value thanks to Intimidate, Fake Out, and Parting Shot, making it one of the easiest support slots to justify.",
+          "howToGet": "Recruit or transfer it, then train it into your preferred support spread."
+        }
+      ],
+      "aTier": [
+        {
+          "pokemon": "Charizard",
+          "bestIn": "Mega offense",
+          "whyItWins": "Mega Charizard Y and Drought-driven Fire pressure keep Charizard near the front of the early offensive meta.",
+          "howToGet": "Available from the Charizard starter lineup."
+        },
+        {
+          "pokemon": "Archaludon",
+          "bestIn": "Singles and bulky balance",
+          "whyItWins": "Archaludon is one of the best defensive picks at launch, with huge staying power, many resistances, and enough move flexibility to anchor slower teams.",
+          "howToGet": "Rare through recruitment unless you already own one from Scarlet and Violet."
+        },
+        {
+          "pokemon": "Meowscarada",
+          "bestIn": "Fast offense",
+          "whyItWins": "Meowscarada stands out for elite speed, flexible builds, and the ability to threaten a wide range of targets before they move.",
+          "howToGet": "Recruit or bring it in from HOME if you already have one."
+        },
+        {
+          "pokemon": "Hydreigon",
+          "bestIn": "Special offense",
+          "whyItWins": "Hydreigon's rare Dark/Dragon typing, high Special Attack, and U-turn utility make it one of the better offensive recruits to build around early.",
+          "howToGet": "Available through Palafin and Armarouge starter lineups, or via recruitment."
+        },
+        {
+          "pokemon": "Greninja",
+          "bestIn": "Fast mixed pressure",
+          "whyItWins": "Greninja keeps value through elite speed, broad move access, and Protean-driven flexibility, even if it stays fragile.",
+          "howToGet": "Recruit it, or move it in through HOME if you already own one."
+        }
+      ]
+    },
+    "pokemonChampionsBestTeams": {
+      "eyebrow": "Team Builder",
+      "title": "Pokemon Champions Best Replica Teams to Copy",
+      "subtitle": "These are the most practical early teams to build around if you want ready-made lineups instead of starting from scratch. Each card shows the full six-Pokemon shell, the replica code, and the playstyle it supports.",
+      "intro": "Replica Teams are the fastest way to jump into serious battles with a proven lineup. The strongest early teams already center on recurring staples like Charizard, Incineroar, Garchomp, Gengar, Palafin, and Archaludon, with both weather offense and control styles represented.",
+      "items": [
+        {
+          "card_title": "Mega Charizard Y",
+          "team_code": "QGYAG5WE3C",
+          "owner": "LenVGC",
+          "style": "Balanced sun offense",
+          "full_team": [
+            "Charizard",
+            "Venusaur",
+            "Garchomp",
+            "Milotic",
+            "Gardevoir",
+            "Incineroar"
+          ],
+          "best_for": "A flexible first replica team with immediate Mega pressure, speed control, and solid defensive pivots."
+        },
+        {
+          "card_title": "Rain Palafin",
+          "team_code": "D96E6SXLN8",
+          "owner": "Xeb41",
+          "style": "Rain offense",
+          "full_team": [
+            "Palafin",
+            "Pelipper",
+            "Incineroar",
+            "Klefki",
+            "Sinistcha",
+            "Dragonite"
+          ],
+          "best_for": "Players who want a fast weather team with immediate pressure and strong utility support."
+        },
+        {
+          "card_title": "Sash Gengar",
+          "team_code": "PTVY9BE1V3",
+          "owner": "SplashPlate",
+          "style": "Fast tempo offense",
+          "full_team": [
+            "Gengar",
+            "Garchomp",
+            "Clefable",
+            "Meowscarada",
+            "Delphox",
+            "Corviknight"
+          ],
+          "best_for": "A quick ladder team that leans on strong early pressure and fast revenge options."
+        },
+        {
+          "card_title": "Meganium Rain",
+          "team_code": "K5N29KPU9T",
+          "owner": "NatusPKMN",
+          "style": "Rain balance",
+          "full_team": [
+            "Meganium",
+            "Archaludon",
+            "Basculegion",
+            "Maushold",
+            "Politoed",
+            "Talonflame"
+          ],
+          "best_for": "A rounded weather shell for players who want rain support without giving up utility and speed options."
+        },
+        {
+          "card_title": "Golurk Trick Room",
+          "team_code": "HH3MF048VV",
+          "owner": "Its_WDMichael",
+          "style": "Trick Room control",
+          "full_team": [
+            "Hatterene",
+            "Oranguru",
+            "Golurk",
+            "Clefable",
+            "Hydreigon",
+            "Torkoal"
+          ],
+          "best_for": "A slower control lineup built around setting Trick Room and letting heavy hitters take over."
+        }
+      ]
+    },
+    "pokemonChampionsRankedBattlesGuide": {
+      "eyebrow": "対戦",
+      "title": "Pokemon Champions Ranked Battles ガイド",
+      "subtitle": "Ranked Battlesは、対戦プレイヤーにとって主要な長期的な進行ループです。この表では、フォーマット、VPの獲得、シーズンの構造、および現在のローンチシーズンの設定について説明します。",
+      "intro": "Pokemon Championsは対戦を中心に構築されており、Ranked Battlesはそのループの中心に位置します。実力の近いトレーナーと対戦することでランクを上げ、試合後にVPを獲得し、時間の経過とともに使用可能なポケモンが変化するシーズンごとのレギュレーションを戦い抜きます。",
+      "items": [
+        {
+          "topic": "バトルフォーマット",
+          "value": "シングルとダブル",
+          "details": "Ranked Battles、Casual Battles、および Private Battlesはすべて、シングルバトルとダブルバトルの両方のフォーマットをサポートしています。"
+        },
+        {
+          "topic": "マッチメイキング",
+          "value": "実力に基づいたペアリング",
+          "details": "ランクは結果に応じて変動し、Ranked Battlesでは実力の近いトレーナーと対戦するように設計されています。"
+        },
+        {
+          "topic": "VP報酬",
+          "value": "Rankedの試合後にVPを獲得",
+          "details": "Victory Point（VP）はポケモンのスカウトや育成に使用され、VPを直接購入することはできません。"
+        },
+        {
+          "topic": "ランク順位",
+          "value": "モンスターボールからチャンピオンまで",
+          "details": "プレイヤーはモンスターボール級のランク4から開始し、勝利を重ねることでサブランクや上位の級へと昇格します。"
+        },
+        {
+          "topic": "Mega Evolution",
+          "value": "最初のルールセットで有効",
+          "details": "ローンチ時のRanked Battlesでは、Omni Ringを通じてMega Evolutionが有効になります。"
+        },
+        {
+          "topic": "シーズン構造",
+          "value": "毎シーズン結果が集計される",
+          "details": "最終順位、最終ランク、およびシーズン報酬はすべて、シーズンの結果に基づいて決定されます。"
+        },
+        {
+          "topic": "レギュレーション",
+          "value": "数シーズンごとにルールが入れ替わる",
+          "details": "新しいレギュレーション期間が始まると、使用可能なポケモンやその他のバトルパラメータが変更されます。"
+        },
+        {
+          "topic": "現在のランクシーズン",
+          "value": "シーズン M-1",
+          "details": "現在のローンチシーズンは、レギュレーションセット M-Aの下、2026年4月8日 02:00 UTCから2026年6月17日 01:59 UTCまで開催されます。"
+        },
+        {
+          "topic": "Battle Passとの連携",
+          "value": "バトルでSPを獲得",
+          "details": "シーズンポイント（SP）はRanked Battlesやその他のプレイを通じて獲得でき、SPとBattle Passはどちらもシーズンごとにリセットされます。"
+        },
+        {
+          "topic": "eスポーツでの役割",
+          "value": "Worlds 2026 VGC 使用ソフト",
+          "details": "2026年より、Pokemon Championsはポケモンワールドチャンピオンシップスおよび予選となるチャンピオンシップシリーズのVGC使用ソフトとなります。"
+        }
+      ]
+    },
+    "pokemonChampionsPokemonHomeGuide": {
+      "eyebrow": "連携",
+      "title": "Pokemon Champions Pokémon HOME ガイド",
+      "subtitle": "Pokémon HOMEは、他のタイトルから対象のパートナーを連れてくることができるため、Championsの決定的な機能の1つです。重要なのは、正確な転送経路と、ポケモンが「ビジター」になった後に適用されるルールを知ることです。",
+      "intro": "Pokemon Championsは、過去のコレクションと新しいバトル中心のロスターを繋ぐ架け橋としてPokémon HOMEを使用します。連携後のワークフローは簡単ですが、ビジターには技の適法性、預かり、および返却転送に関するゲーム固有のルールが適用されます。",
+      "steps": [
+        {
+          "step": 1,
+          "title": "同じNintendo Accountを連携する",
+          "description": "Nintendo Switch版とスマートフォン版のPokémon HOMEで同じNintendo Accountを使用することで、両方のバージョンから同じ預かりポケモンにアクセスできるようになります。"
+        },
+        {
+          "step": 2,
+          "title": "HOMEでChampionsとの連携を開く",
+          "description": "Nintendo Switchでは、HOMEの画面からPokemon Championsのアイコンを選択します。スマートフォンでは、「設定」から「Pokemon Championsとの連携」セクションにある「ビジターとして送り出す」を使用します。"
+        },
+        {
+          "step": 3,
+          "title": "対象のビジターのみを選択する",
+          "description": "Pokemon Championsに登場するポケモンのみがビジターになれます。現在のChampionsのロスターに含まれていない種類は、送り出すことができません。"
+        },
+        {
+          "step": 4,
+          "title": "Championsで送り出しと受け取りを行う",
+          "description": "HOMEからビジターを送り出した後、Pokemon Champions内で「Recruit」を開き、「Pokémon HOMEから受け取る」を使用して、そのポケモンをChampionsのボックスに連れてきます。"
+        },
+        {
+          "step": 5,
+          "title": "特訓で技を修正する",
+          "description": "ビジターのポケモンがPokemon Championsで使用できない技を覚えている場合は、バトルで使用する前にChampions内で技を再習得させてください。"
+        },
+        {
+          "step": 6,
+          "title": "戻せるものを理解する",
+          "description": "ビジターのポケモンはPokémon HOMEに戻すことができますが、Pokemon Champions内で入手したポケモンをPokémon HOMEに預けることはできません。"
+        },
+        {
+          "step": 7,
+          "title": "特訓のルールに注意する",
+          "description": "Pokemon Championsで行った特訓はPokémon HOMEには引き継がれません。同じビジターが後で再びChampionsに来た場合、そのChampionsでの特訓内容は保持されています。"
+        },
+        {
+          "step": 8,
+          "title": "HOMEを活用して限られたボックスを管理する",
+          "description": "Championsのボックス設定はコンパクトな状態で始まるため、Pokémon HOMEを利用して過去のお気に入りを入れ替えながら、バトル用のロスターを整理するのが最も簡単な方法です。"
+        }
+      ]
+    },
+    "pokemonChampionsAllPokemonList": {
+      "eyebrow": "ロスター",
+      "title": "Pokemon Champions 全ポケモンリスト",
+      "subtitle": "転送、チーム編成、強化のすべての決定が、実際に何が使用可能かに依存するため、ロスターの把握は重要です。この概要では、ローンチ時の規模、注目すべきフォルム、およびプレイヤーが最初に知っておくべき主要な入手ルールについて説明します。",
+      "intro": "Pokemon Championsは、全国図鑑をすべて網羅するのではなく、対戦用に厳選されたかなりの数のロスターでローンチされました。Mega Evolutionはすでにロスターの主要な部分を占めており、いくつかのリージョンフォームや特別なフォルムもサポートされています。また、プレイヤーが実際に連れてくることができるポケモンを制限するいくつかの重要な転送制限があります。",
+      "items": [
+        {
+          "section": "概要",
+          "entry": "登場するポケモンの種類",
+          "value": "187",
+          "notes": "現在、ゲーム内のロスターには187種類のポケモンがリストされています。"
+        },
+        {
+          "section": "概要",
+          "entry": "Mega Evolution",
+          "value": "59",
+          "notes": "メガシンカフォルムは、ベースとなるポケモンのリストとは別に管理されています。"
+        },
+        {
+          "section": "現在のレギュレーション",
+          "entry": "通常ロスター M-A",
+          "value": "2026年6月16日まで有効",
+          "notes": "現在のロスターに含まれていないポケモンを入手するには、イベントや転送経路が必要です。"
+        },
+        {
+          "section": "転送限定",
+          "entry": "ＡＺのフラエッテ",
+          "value": "許可",
+          "notes": "現在のレギュレーションで使用可能ですが、Pokémon HOMEを通じて『Pokémon Legends: Z-A』から転送する必要があります。"
+        },
+        {
+          "section": "リージョンフォーム",
+          "entry": "確認済みの別のフォルム",
+          "value": "アローラライチュウ、アローラキュウコン、ヒスイウインディ、ヒスイジュナイパー",
+          "notes": "固定のフォルムは、ロスター内でベースとなる種類と並んでリストされています。"
+        },
+        {
+          "section": "注目のロスター",
+          "entry": "現代の対戦で人気のポケモン",
+          "value": "ガオガエン、マスカーニャ、イルカマン、リキキリン、ドドゲザン、ブリジュラス",
+          "notes": "検索頻度の高い対戦向けのポケモンの多くは、ローンチ時のプールにすでに存在しています。"
+        },
+        {
+          "section": "メガロスター",
+          "entry": "確認済みの例",
+          "value": "メガリザードンX、メガリザードンY、メガカメックス、Mega Dragonite、メガオーダイル",
+          "notes": "ローンチ時のメガシンカプールには、定番のメガシンカポケモンと、新しくサポートされた進化形の両方が含まれています。"
+        },
+        {
+          "section": "制限事項",
+          "entry": "伝説・幻のポケモン",
+          "value": "ローンチ時には登場しません",
+          "notes": "ローンチ時のロスターには、伝説や幻のポケモンは含まれていません。"
+        },
+        {
+          "section": "制限事項",
+          "entry": "特別な転送制限",
+          "value": "「きずなへんげ」のゲッコウガは送れません",
+          "notes": "ベースとなるポケモンの進化系統がサポートされている場合でも、一部の特別な個体は除外されたままとなります。"
+        },
+        {
+          "section": "制限事項",
+          "entry": "データはあるが転送不可",
+          "value": "パーモット",
+          "notes": "パーモットはゲームデータ内に存在しますが、現在は転送することができません。"
+        }
+      ]
+    },
+    "pokemonChampionsTrainingGuide": {
+      "eyebrow": "Progression",
+      "title": "Pokemon Champions Training Guide",
+      "subtitle": "Train Your Roster Around VP, Roles, and Long-Term Value",
+      "intro": "Training in Pokemon Champions is not just a stat screen. VP powers recruitment and customization, and the game also lets you edit moves and Abilities once a Pokemon is permanently on your roster. A good training flow starts with steady VP income, avoids wasting resources on temporary trial recruits, and finishes by aligning stats, nature, and held item choices with the role each Pokemon is meant to play.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Build VP income first",
+          "description": "Ranked Battles award Victory Points after matches, and VP is the core currency used for both recruiting and training Pokemon. VP cannot be purchased directly, so regular battle volume is the foundation of roster growth."
+        },
+        {
+          "step": 2,
+          "title": "Use Roster Ranch efficiently",
+          "description": "Roster Ranch gives you a free random lineup refresh every 22 hours. You can also use Trial Recruitment once per day without spending VP, which is useful for testing whether a Pokemon fits your team plan before you commit resources."
+        },
+        {
+          "step": 3,
+          "title": "Promote keepers before you invest heavily",
+          "description": "Trial recruits cannot be trained, so major VP spending should go into Pokemon you plan to keep. Permanent Recruitment uses VP, while Teammate Tickets from in-game missions can permanently recruit a Pokemon without paying VP."
+        },
+        {
+          "step": 4,
+          "title": "Train by battle role, not by habit",
+          "description": "Each Pokemon gets 66 extra stat points, with a maximum of 32 points in a single stat. Fast sweepers usually prioritize Speed plus one attacking stat, while bulky attackers and tanks lean into HP, Defense, or Special Defense depending on the matchup role they need to cover."
+        },
+        {
+          "step": 5,
+          "title": "Finish the build with nature, moves, ability, and item synergy",
+          "description": "Pokemon Champions lets you train stats, moves, and Abilities, and Training Tickets can reduce the VP cost of training to zero. After the role is set, complete the build with a nature and held item that fit the plan instead of buying items at random."
+        }
+      ]
+    },
+    "pokemonChampionsMovesetsAndBestBuilds": {
+      "eyebrow": "Builds",
+      "title": "Pokemon Champions Movesets and Best Builds",
+      "subtitle": "Early Meta Builds to Copy, Compare, and Adapt",
+      "intro": "Movesets in Pokemon Champions are not one-size-fits-all. Some Pokemon already have very stable doubles packages, while others split into support, offense, or rain-based variants. This module highlights builds that are easy to understand at a glance, with enough detail for players to decide whether they want a safe ladder setup or a more specialized team slot.",
+      "items": [
+        {
+          "pokemon": "Incineroar",
+          "role": "Top-tier utility pivot",
+          "format": "Doubles core, with a separate singles variant",
+          "coreBuild": "Intimidate | Fake Out / Flare Blitz / Knock Off / U-turn",
+          "topItems": "Assault Vest 35.5%, Safety Goggles 26.0%, Sitrus Berry 24.2%, Rocky Helmet 8.5%",
+          "commonMoves": "Fake Out 99.8%, Flare Blitz 91.0%, Knock Off 84.2%, Parting Shot 62.2%",
+          "teamNote": "Games.gg also highlights a singles build using Impish nature, Leftovers or Sitrus Berry, and Flare Blitz / Parting Shot / Darkest Lariat / Will-O-Wisp."
+        },
+        {
+          "pokemon": "Archaludon",
+          "role": "Rain pressure special tank",
+          "format": "Doubles rain",
+          "coreBuild": "Stamina | Assault Vest | Electro Shot / Flash Cannon / Body Press / Dragon Pulse",
+          "topItems": "Assault Vest 94.1%; Power Herb 4.4% is the main alternative",
+          "commonMoves": "Electro Shot 94.6%, Flash Cannon 80.3%, Body Press 75.4%, Dragon Pulse 55.2%",
+          "teamNote": "Pelipper and Urshifu-Rapid-Strike are the clearest partners, with Amoonguss frequently rounding out the core."
+        },
+        {
+          "pokemon": "Salamence",
+          "role": "Flexible speed-control attacker",
+          "format": "Doubles utility or rain flex",
+          "coreBuild": "Intimidate | Draco Meteor / Protect / Air Slash / Tailwind",
+          "topItems": "Life Orb 28.6%; Choice Scarf, Rocky Helmet, Covert Cloak, Sitrus Berry, and Eject Pack each appear as viable variants",
+          "commonMoves": "Draco Meteor 71.4%, Protect 71.4%, Air Slash 57.1%, Tailwind 42.9%",
+          "teamNote": "A rain-flavored variant also appears with Eject Pack plus Draco Meteor / Hurricane / Hydro Pump / Protect."
+        },
+        {
+          "pokemon": "Maushold",
+          "role": "Follow Me support and Beat Up enabler",
+          "format": "Doubles support",
+          "coreBuild": "Friend Guard | Follow Me / Protect / Beat Up / Taunt",
+          "topItems": "Wide Lens 23.1%, Rocky Helmet 23.1%, Covert Cloak 15.4%, Focus Sash 15.4%",
+          "commonMoves": "Follow Me 100.0%, Protect 61.5%, Beat Up 46.2%, Taunt 46.2%",
+          "teamNote": "Friend Guard is the main ability at 69.2%, but Technician Population Bomb variants also show up as a more aggressive alternative."
+        }
+      ]
+    },
+    "pokemonChampionsMegaEvolutionGuide": {
+      "eyebrow": "Mega Evolution",
+      "title": "Pokemon Champions Mega Evolution Guide",
+      "subtitle": "How to Equip Mega Stones and Use Mega Evolution Correctly",
+      "intro": "This guide covers the exact questions most players hit first: where Mega Stones are stored, how to equip them, when the Mega toggle appears in battle, and which stones are already confirmed in the launch shop. Mega Evolution is powerful, but it also costs your held-item slot and can only be activated once per battle, so good execution matters as much as picking the right Mega.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Finish the tutorial before trying to use Mega Stones",
+          "description": "Mega Stones are not usable until the tutorial is complete. Buying one early does not break anything, but the item cannot be equipped until that tutorial gate has been cleared."
+        },
+        {
+          "step": 2,
+          "title": "Open the correct item menu",
+          "description": "Use either the Box menu and press X for the Held Item screen, or select a Pokemon in your active battle lineup and choose Give an Item to Hold. Mega Stones sit in a separate tab, so they will not show up in the standard inventory view."
+        },
+        {
+          "step": 3,
+          "title": "Match the stone to the Pokemon species",
+          "description": "Mega Stones are species-specific, such as Gengarite for Gengar. Equipping one also uses the held-item slot, so that Pokemon gives up options like Sitrus Berry, Assault Vest, or Rocky Helmet."
+        },
+        {
+          "step": 4,
+          "title": "Trigger Mega Evolution during the battle",
+          "description": "When the correct holder is active in battle, choose Fight and press R to toggle Mega Evolution before selecting the move. Only one Pokemon can Mega Evolve per battle, and if that Pokemon switches out later, it stays in Mega form."
+        },
+        {
+          "step": 5,
+          "title": "Prioritize the launch stones that are easy to plan around",
+          "description": "Confirmed launch-shop examples include Charizardite X, Charizardite Y, Gengarite, Tyranitarite, Scizorite, and Gardevoirite at 2000 VP each. Additional Mega Stones are tied to routes such as the Mega Evolution Tutorial, Battle Pass rewards, Mystery Gifts, and the Frontier Shop."
+        }
+      ]
+    },
+    "pokemonChampionsHeldItemsGuide": {
+      "eyebrow": "Held Items",
+      "title": "Pokemon Champions Held Items Guide",
+      "subtitle": "Held Items to Learn First for Faster Team Upgrades",
+      "intro": "Held items in Pokemon Champions do not all do the same kind of work. Some are cheap matchup tools, some are steady damage boosts, and a few can completely swing a turn when triggered. The fastest way to improve item decisions is to separate baseline shop buys from the utility pieces that should only be purchased for a specific team or matchup.",
+      "items": [
+        {
+          "itemOrGroup": "Type Booster Items",
+          "examples": "Silk Scarf, Miracle Seed, Charcoal, Mystic Water, Magnet, Dragon Fang, Metal Coat, Fairy Feather",
+          "whatItDoes": "Straightforward offensive shop items listed at 700 VP each.",
+          "howToUseIt": "Best when a Pokemon wins games by repeatedly clicking one main STAB attack type.",
+          "vpCostOrSource": "700 VP each"
+        },
+        {
+          "itemOrGroup": "Status Cure Berries",
+          "examples": "Cheri, Chesto, Pecha, Rawst, Aspear, Persim",
+          "whatItDoes": "Cheap berry-slot utility items available in the shop.",
+          "howToUseIt": "Useful when one status effect would shut down a key attacker or support slot.",
+          "vpCostOrSource": "400 VP each"
+        },
+        {
+          "itemOrGroup": "Type Resist Berries",
+          "examples": "Rindo, Occa, Passho, Wacan, Tanga, Coba, Charti, Kebia, Shuca, Yache, Chople, Payapa, Kasib, Haban, Colbur, Babiri, Roseli",
+          "whatItDoes": "Matchup berries listed in the shop for targeted counterplay.",
+          "howToUseIt": "Buy these for specific ladder threats rather than as blind all-purpose items.",
+          "vpCostOrSource": "400 VP each"
+        },
+        {
+          "itemOrGroup": "Special Shop Picks",
+          "examples": "Scope Lens, Light Ball",
+          "whatItDoes": "Higher-cost niche items already listed in the launch shop.",
+          "howToUseIt": "Worth considering when a specific Pokemon or crit-focused line makes the item slot matter more than raw bulk.",
+          "vpCostOrSource": "1000 VP each"
+        },
+        {
+          "itemOrGroup": "Rocky Helmet",
+          "examples": "Rocky Helmet",
+          "whatItDoes": "If another Pokemon makes contact with the holder, it takes damage.",
+          "howToUseIt": "Excellent on bulky support Pokemon that expect to absorb physical contact.",
+          "vpCostOrSource": "Shop staple"
+        },
+        {
+          "itemOrGroup": "Weakness Policy",
+          "examples": "Weakness Policy",
+          "whatItDoes": "Boosts the holder's attack power if it is hit by a move it is weak to.",
+          "howToUseIt": "Best on Pokemon that can survive the trigger turn and immediately convert it into pressure.",
+          "vpCostOrSource": "Shop staple"
+        },
+        {
+          "itemOrGroup": "Black Sludge",
+          "examples": "Black Sludge",
+          "whatItDoes": "Heals the holder each turn if it is a Poison-type, otherwise it takes damage each turn.",
+          "howToUseIt": "Reserve it for Poison-type users only; it is a sustain slot, not a generic recovery item.",
+          "vpCostOrSource": "Shop staple"
+        },
+        {
+          "itemOrGroup": "Throat Spray",
+          "examples": "Throat Spray",
+          "whatItDoes": "Raises the holder's Sp. Atk after it uses a sound-based move.",
+          "howToUseIt": "Strong on special attackers whose move plan naturally includes a sound-based trigger.",
+          "vpCostOrSource": "Shop staple"
+        },
+        {
+          "itemOrGroup": "Mental Herb",
+          "examples": "Mental Herb",
+          "whatItDoes": "Cures the holder of Infatuation.",
+          "howToUseIt": "A niche utility choice that matters only when you are building for that specific interaction.",
+          "vpCostOrSource": "Shop staple"
+        }
+      ]
+    },
+    "pokemonChampionsSeasonsAndRegulations": {
+      "title": "Pokemon Champions Seasons and Regulations",
+      "eyebrow": "Ranked Play",
+      "subtitle": "Pokemon Champions separates short ranked seasons from longer regulation windows. Your season determines rank results and season rewards, while regulations determine the usable roster and battle parameters for multiple seasons.",
+      "intro": "This is the quick reference block for players who want to know what is live right now and what changes next. In the current launch period, Regulation M-A is the active ruleset, Season M-1 is the first ranked season, and Play! Pokemon competition support is moving onto Pokemon Champions during late May and beyond.",
+      "items": [
+        {
+          "date": "April 8, 2026",
+          "label": "Launch Day",
+          "title": "Season M-1 and the first Battle Pass begin",
+          "details": "Ranked Battle Season M-1 began on April 8, 2026 at 02:00 UTC. The first seasonal Battle Pass also opened on the same day, tying the opening reward track to the first ranked season.",
+          "tags": [
+            "Season M-1",
+            "Battle Pass",
+            "Launch"
+          ]
+        },
+        {
+          "date": "April 8, 2026 – June 17, 2026",
+          "label": "Current Regulation",
+          "title": "Regulation M-A is the active launch ruleset",
+          "details": "Regulation M-A is the first regulation group in Pokemon Champions and runs from April 8 to June 17, 2026. Regulations control the usable Pokemon pool and other battle parameters across multiple seasons.",
+          "tags": [
+            "Regulation M-A",
+            "Ruleset",
+            "Roster Pool"
+          ]
+        },
+        {
+          "date": "May 13, 2026",
+          "label": "Season Change",
+          "title": "Season M-1 ends before the regulation window does",
+          "details": "Season M-1 and its Battle Pass run until May 13, 2026 at 01:59 UTC. This means the first season ends while Regulation M-A is still active, showing how seasons rotate faster than regulations.",
+          "tags": [
+            "Season End",
+            "Battle Pass Reset",
+            "Rank Rewards"
+          ]
+        },
+        {
+          "date": "May 29–31, 2026",
+          "label": "Premier Event Transition",
+          "title": "Pokemon Champions becomes the Play! Pokemon event platform",
+          "details": "Pokemon Champions makes its Play! Pokemon Premier Event debut at the Indianapolis Regional Championships on May 29-31, 2026. It remains the platform for later Premier Events including the Turin Special Event on June 6-7 and the North America International Championships on June 12-14.",
+          "tags": [
+            "Indianapolis Regionals",
+            "Premier Events",
+            "Competitive Transition"
+          ]
+        }
+      ]
+    },
+    "pokemonChampionsSingleBattleVsDoubleBattle": {
+      "title": "Pokemon Champions Single Battle vs Double Battle",
+      "eyebrow": "Battle Formats",
+      "subtitle": "Pokemon Champions supports both Singles and Doubles across its main battle modes, but the two formats serve very different needs. Singles is the cleaner starting point, while Doubles is the competitive centerpiece of early official play.",
+      "intro": "If you are deciding where to spend your training time, the fastest answer is this: learn Singles to understand your roster, but learn Doubles if you want to follow the official competitive direction of the game. Current online competitions and broader VGC-style play are already centered on Double Battles.",
+      "headers": {
+        "aspect": "Aspect",
+        "single": "Single Battle",
+        "double": "Double Battle"
+      },
+      "items": [
+        {
+          "aspect": "Pokemon on the field",
+          "single": "1 active Pokemon per side",
+          "double": "2 active Pokemon per side"
+        },
+        {
+          "aspect": "Where you can queue",
+          "single": "Ranked Battles, Casual Battles, and Private Battles",
+          "double": "Ranked Battles, Casual Battles, Private Battles, and current official online competitions"
+        },
+        {
+          "aspect": "Team choice at match start",
+          "single": "Build a team of six, then choose four after seeing the opposing team",
+          "double": "Build a team of six, then choose four after seeing the opposing team"
+        },
+        {
+          "aspect": "Competitive spotlight",
+          "single": "Supported in online play, but not the main tournament-facing spotlight of the launch period",
+          "double": "The standard competitive format used by the Warm-Up Challenge and Global Challenge 2026 I"
+        },
+        {
+          "aspect": "Decision density",
+          "single": "Cleaner reads and fewer active variables each turn",
+          "double": "More active threats, more target choices, and more partner-based planning each turn"
+        },
+        {
+          "aspect": "Move and team synergy",
+          "single": "More direct emphasis on one-on-one matchups, speed control, and switching discipline",
+          "double": "Much higher value on partner synergy, positioning, spread pressure, and support options"
+        },
+        {
+          "aspect": "6v6 availability",
+          "single": "No dedicated 6v6 queue is offered in Champions",
+          "double": "No dedicated 6v6 queue is offered in Champions"
+        },
+        {
+          "aspect": "Best fit",
+          "single": "Players learning fundamentals or testing individual Pokemon performance",
+          "double": "Players preparing for official events, ladder trends, and broader competitive play"
+        }
+      ]
+    },
+    "pokemonChampionsBattlePassAndPremiumGuide": {
+      "title": "Pokemon Champions Battle Pass and Premium Guide",
+      "eyebrow": "Monetization",
+      "subtitle": "Pokemon Champions splits paid progression into four lanes: the standard Battle Pass, the Premium Battle Pass, the one-time Starter Pack, and the recurring Membership. The real difference is whether you want seasonal cosmetics, instant roster acceleration, or long-term account convenience.",
+      "intro": "For most players, the easiest way to think about these offers is simple. The Battle Pass is your seasonal reward track, the Premium Battle Pass is the expanded version of that track, the Starter Pack is an instant roster-building jump, and Membership is the ongoing convenience layer for serious team builders.",
+      "headers": {
+        "product": "Product",
+        "access": "Access Model",
+        "value": "Main Value",
+        "examples": "Season M-1 Examples",
+        "bestFor": "Best For"
+      },
+      "items": [
+        {
+          "product": "Battle Pass",
+          "access": "Free seasonal progression track",
+          "value": "Seasonal rewards that reset each season",
+          "examples": "Meganium, Dragoninite, Meganiumite, Quick Coupon x36, Teammate Ticket x4, Training Ticket x4, and 10,000 VP",
+          "bestFor": "Players who want steady rewards without buying in"
+        },
+        {
+          "product": "Premium Battle Pass",
+          "access": "Paid upgrade to the seasonal Battle Pass",
+          "value": "More seasonal rewards, exclusive clothing, and extra premium items",
+          "examples": "Emboar, Feraligatr, Emboarite, Feraligite, extra tickets, and Pokemon Legends: Z-A main-character outfits",
+          "bestFor": "Players who want the fullest seasonal reward track each month"
+        },
+        {
+          "product": "Starter Pack",
+          "access": "One-time Nintendo Switch bundle purchase",
+          "value": "Faster team building and training from day one",
+          "examples": "Storage for 50 additional Pokemon, 30 Teammate Tickets, 50 Training Tickets, and the Battle! Trainer Battle song",
+          "bestFor": "Players who want to expand their roster and training resources immediately"
+        },
+        {
+          "product": "Membership",
+          "access": "Recurring subscription with automatic renewal",
+          "value": "Long-term account convenience for frequent battlers",
+          "examples": "More Box storage, more usable Battle Teams, membership-exclusive missions, and membership-exclusive battle songs",
+          "bestFor": "Players who rotate many teams and play the game regularly"
+        },
+        {
+          "product": "Premium Reward Overlap",
+          "access": "Applies to select Premium Battle Pass items",
+          "value": "Extra flexibility if you miss a pass reward but still grind battles",
+          "examples": "Some Premium Battle Pass rewards such as Mega Stones can also be purchased from the Shop with VP",
+          "bestFor": "Players who want another route to key battle items without paying for the pass"
+        }
+      ]
+    },
+    "pokemonChampionsPrivateBattlesAndOnlineCompetitions": {
+      "title": "Pokemon Champions Private Battles and Online Competitions",
+      "eyebrow": "オンラインプレイ",
+      "subtitle": "Pokemon Championsは、同じバトルメニューからクイックなフレンド対戦、カスタムルーム、そして体系化されたオンライン大会をサポートしています。現在のライブイベントフローにより、Private Battlesから公式トーナメントプレイへスムーズに移行することも可能です。",
+      "intro": "このセクションは実用的なローンチチェックリストとして機能します。Private Battlesのルーム作成や参加方法、大会へのエントリー手順、そしてカジュアルなフレンド対戦を超えてプレイしたい場合に優先すべき公式イベントについて説明します。",
+      "items": [
+        {
+          "step": 1,
+          "title": "まずセットアップ要件を完了させる",
+          "details": "オンラインで他のプレイヤーと対戦する前に、チュートリアルを完了し、バトルチームを作成してください。"
+        },
+        {
+          "step": 2,
+          "title": "Private Battleメニューを開く",
+          "details": "タイトル画面でAボタンを押し、「Battle」を選択してから「Private Battles」を選びます。"
+        },
+        {
+          "step": 3,
+          "title": "フレンド用のルームをホストする",
+          "details": "「Make a Room」を選択します。ホストはゲーム内のフレンドリストからフレンドを招待するか、ルームIDを手動で共有できます。"
+        },
+        {
+          "step": 4,
+          "title": "招待またはルームIDでルームに参加する",
+          "details": "招待を承諾するか、「Enter a Room ID」を選択してホストから共有されたコードを入力して参加します。"
+        },
+        {
+          "step": 5,
+          "title": "開始前にルームの制限を確認する",
+          "details": "Private Battlesのルームは最大12名まで対応しています。一度に最大8名（1対戦につき2名）が対戦可能で、他のプレイヤーは観戦できます。"
+        },
+        {
+          "step": 6,
+          "title": "準備を完了してマッチを開始する",
+          "details": "プレイヤーが揃ったら、各対戦者がスポットを選び、バトルチームを選択して「Ready」を押すと開始されます。"
+        },
+        {
+          "step": 7,
+          "title": "バトルメニューからオンライン大会にエントリーする",
+          "details": "「Battle」＞「Online Competitions」に進み、イベントを選択して詳細を確認し、ルールに同意してチームを選び、エントリーを確定します。イベントが開始されたら、その大会に戻ってマッチングを開始してください。"
+        },
+        {
+          "step": 8,
+          "title": "トーナメント形式のイベントではCompetition Modeを使用する",
+          "details": "トーナメント形式のイベントでは、タイトル画面に戻って「Competition Mode」を開き、エントリーIDとテーブルIDを入力して、対戦準備ができたら確定します。"
+        },
+        {
+          "step": 9,
+          "title": "開催中にWarm-Up Challengeをプレイする",
+          "details": "Warm-Up Challengeは最初の公式インゲーム大会です。エントリーは2026年4月8日に開始され、対戦は4月10日から13日まで行われます。レギュレーションM-Aを使用し、インターナショナルダブルバトル形式で1日15戦まで可能です。参加賞にはサーナイトと100枚のクイッククーポンが含まれます。"
+        },
+        {
+          "step": 10,
+          "title": "次の大きな大会をチェックする",
+          "details": "Global Challenge 2026 Iの登録は2026年4月23日に開始され、5月4日01:59 UTCに締め切られます。対戦は2026年5月1日から4日まで行われます。レギュレーションM-Aを使用し、インターナショナルダブルバトルイベントとして1日15戦まで可能です。"
+        },
+        {
+          "step": 11,
+          "title": "公式サーキットプレイへの移行を追う",
+          "details": "Pokemon Championsは、2026年5月29日から31日に開催されるインディアナポリス地域大会を皮切りに、Play! Pokemon Premier Eventsのプラットフォームとなり、その後のプレミアイベントでも標準プラットフォームとして使用されます。"
         }
       ]
     }
@@ -757,177 +1113,217 @@
   "faq": {
     "title": "よくある",
     "titleHighlight": "質問",
-    "subtitle": "Lucid Blocks に関するすべての情報",
+    "subtitle": "Pokemon Championsについて知っておくべきことのすべて",
     "questions": [
       {
-        "question": "Lucid Blocks はシングルプレイヤーゲームですか？",
-        "answer": "はい。Lucid Blocks はシングルプレイヤー専用のゲームであり、マルチプレイヤーや協力プレイの予定はありません。"
+        "question": "Pokemon Championsとは何ですか？",
+        "answer": "Pokemon Championsは、2026年4月8日にリリースされたNintendo SwitchおよびSwitch 2向けの基本プレイ無料の対戦バトルゲームです。Ranked Battles、Casual Battles、Private Battlesをシングルおよびダブル形式で楽しむことができ、Mega Evolutionや公式のVGCサポートも備えています。"
       },
       {
-        "question": "Lucid Blocks における Apotheosis システムとは何ですか？",
-        "answer": "Apotheosis は Lucid Blocks のフリーフォーム・フュージョン・クラフトシステムです。決まったレシピに従うのではなく、素材を組み合わせて独自のクラフトパスを発見していきます。"
+        "question": "Pokemon Championsは無料でプレイできますか？",
+        "answer": "はい。Pokemon ChampionsはNintendo Switchで基本プレイ無料です。無料でダウンロードしてプレイを開始できます。Victory Points (VP) はバトルを通じて獲得でき、直接購入することはできません。"
       },
       {
-        "question": "Lucid Blocks はどこでプレイできますか？",
-        "answer": "Lucid Blocks は現在、Windows向けに Steam で配信されています。Linuxおよび Steam Deckへの対応は、Proton 9.0を通じて提供されています。"
+        "question": "Pokémon HOMEからPokemon Championsにポケモンを転送できますか？",
+        "answer": "はい。Pokemon ChampionsはPokémon HOMEからの転送に対応しています。Pokemon Championsに登場するポケモンのみがPokémon HOMEから移動可能です。これは、初日から手持ちの幅を広げるための最も早い方法の一つです。"
       },
       {
-        "question": "Lucid Blocks の価格はいくらですか？",
-        "answer": "Lucid Blocks は Steam で9.99ドルです。"
+        "question": "Pokemon ChampionsにおけるMega Evolutionとは何ですか？",
+        "answer": "Mega Evolutionは、最初のRanked Battlesルールセットで有効化されるバトルメカニクスです。Omni Ringは、Mega Evolutionに関連するゲーム内のバトルデバイスです。メガシンカの姿は大幅なパワーアップをもたらし、対戦チーム構築の中心となります。"
       },
       {
-        "question": "Lucid Blocks はコントローラーに対応していますか？",
-        "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。キーボードとマウスの方がスムーズに操作できます。"
+        "question": "Pokemon Championsの最強スターターチームは何ですか？",
+        "answer": "万能なスタートを切りたいなら、サーナイトを選びましょう。最強のシングルチームなら、ガブリアスやドドゲザンなどの強力なサポート陣を擁するピカチュウがおすすめです。ダブルなら、すなおこしといかくのサポートで序盤のプランが立てやすいバンギラスが良いでしょう。"
       },
       {
-        "question": "Lucid Blocks のアップデートはありますか？",
-        "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+        "question": "Pokemon Championsは公式のVGCゲームですか？",
+        "answer": "はい。Pokemon Championsは2026年世界選手権の公式VGCソフトウェアです。Pokemon ChampionsのRanked Battlesは競技レギュレーションに準拠しており、公式トーナメントプレイの主要プラットフォームとなります。"
       }
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Pokémon Championsでバトルする準備はできましたか？",
+    "description": "Pokémon Championsコミュニティに参加して、バトルガイドやチーム構築のヒント、最新のメタ情報を手に入れましょう！",
+    "joinCommunity": "コミュニティに参加",
+    "joinGame": "Nintendo Switchでプレイ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Pokemon Champions Wiki",
+    "description": "Pokémon Championsのバトルモード、Pokémon HOME転送、Mega Evolution、チーム構築、VGCレギュレーションに関する完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
-    "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "legal": "法的事項",
+    "discord": "コミュニティフォーラム",
+    "twitter": "Reddit",
+    "steamCommunity": "YouTube",
+    "steamStore": "Nintendo Store",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
+    "copyright": "© 2026 Pokemon Champions Wiki. 任天堂および株式会社ポケモンとは関係ありません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks 攻略ガイド",
-      "description": "初心者向けの基本から、高度な Apotheosis 戦略まで網羅した完全攻略ガイド。サバイバルとクラフトを極めましょう。",
-      "metaTitle": "Lucid Blocks 攻略ガイド - 初心者から上級者向けの戦略",
-      "metaDescription": "初心者向けのヒント、Apotheosis システム、サバイバル戦略、そしてシュールなサンドボックスの世界を攻略するための専門的な戦術を網羅した Lucid Blocks 完全ガイド。",
-      "categoryLabel": "ゲームガイド",
-      "whatIs": "ガイドとは？",
-      "whatIsDescription": "ゲームの仕組み、サバイバル戦略、Apotheosis クラフトシステムを網羅した包括的なガイド。最初の一歩から高度なテクニックまで、すべてを学びましょう。",
-      "why": "なぜガイドを読むのか？",
+    "guide": {
+      "title": "Pokemon Champions 初心者＆攻略ガイド",
+      "description": "チーム構築、VP管理、Roster Ranch、対戦バトル戦略など、Pokemon Championsのステップバイステップガイド。",
+      "metaTitle": "Pokemon Champions ガイド - チーム構築、VP、バトル戦略",
+      "metaDescription": "初心者ガイド、チーム構築のヒント、VP戦略、対戦バトルのアドバイスでPokemon Championsをマスターしましょう。強力なスタートを切り、ランクマッチを駆け上がりましょう。",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Pokemon Championsガイドとは？",
+      "whatIsDescription": "Pokemon Championsガイドは、最初のスターターチーム選びから、Victory Pointsの管理、Roster Ranchの活用、そして対戦でのMega Evolutionのマスターまで、あらゆる内容を網羅しています。",
+      "why": "なぜPokemon Championsガイドを読むべきなのか？",
       "whySteps": {
-        "step1Title": "基本システムを学ぶ",
-        "step1Description": "Apotheosis システムを理解し、初心者が陥りやすいミスを回避しましょう",
-        "step2Title": "素早い進行",
-        "step2Description": "シュールな世界で生き残り、繁栄するための実証済みの道筋を辿りましょう",
-        "step3Title": "戦略を極める",
-        "step3Description": "探索とクラフトのための高度な戦術を身につけましょう"
+        "step1Title": "強力なスタートを切る",
+        "step1Description": "適切なスターターチームを選び、序盤のVPの流れを理解して、手痛いミスを避けましょう。",
+        "step2Title": "対戦用チームを構築する",
+        "step2Description": "シングルとダブルのチーム編成、ロールバランス、形式別の戦略を学びましょう。",
+        "step3Title": "効率的にランクを上げる",
+        "step3Description": "実証済みのヒントを活用してRanked Battlesを進め、シーズン報酬をより早く獲得しましょう。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのガイド"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのPokemon Championsガイド"
     },
-    "crafting": {
-      "title": "Lucid Blocks クラフト",
-      "description": "エッセンスの仕組み、レシピ、強力なアイテムを作るためのクラフト戦略など、Apotheosis 合成システムをマスターしましょう。",
-      "metaTitle": "Lucid Blocks クラフト - Apotheosis システムとレシピ",
-      "metaDescription": "Lucid Blocks の Apotheosis クラフトシステムを極める。エッセンスの仕組み、合成レシピ、強力な道具や武器を作るための戦略を学びましょう。",
-      "categoryLabel": "クラフトシステム",
-      "whatIs": "クラフトとは？",
-      "whatIsDescription": "Apotheosis システムは、最大6つのアイテムを組み合わせて新しいレシピを発見する、独自のエッセンス駆動型合成メカニズムです。固定されたクラフトメニューはなく、実験が鍵となります。",
-      "why": "なぜクラフトを極めるのか？",
+    "roster": {
+      "title": "Pokemon Champions ロスター＆ポケモン一覧",
+      "description": "Mega Evolutionの姿、リージョンフォーム、転送可能な種を含む、Pokemon Championsでプレイ可能なポケモンの全ロスター。",
+      "metaTitle": "Pokemon Champions ロスター - 全ポケモン、Mega Evolution & バリアント",
+      "metaDescription": "Pokemon Championsの完全なロスターを閲覧。プレイ可能なすべてのポケモン、Mega Evolutionの姿、リージョンフォーム、Pokémon HOME転送の可否を確認できます。",
+      "categoryLabel": "ROSTER",
+      "whatIs": "Pokemon Championsロスターとは？",
+      "whatIsDescription": "Pokemon Championsロスターには、基本形態、Mega Evolutionのバリエーション、リージョンフォーム、Pokémon HOME転送が可能なポケモンなど、対戦で使用可能なすべてのポケモンが含まれます。",
+      "why": "なぜロスターをチェックするのか？",
       "whySteps": {
-        "step1Title": "強力なアイテムをアンロック",
-        "step1Description": "合成を通じて、不可欠な道具、武器、移動用装備を発見しましょう",
-        "step2Title": "エッセンスを理解する",
-        "step2Description": "アイテムのエッセンスがどのように組み合わさり、予測可能な結果を生み出すかを学びましょう",
-        "step3Title": "リソースを最適化",
-        "step3Description": "希釈メカニズムを使用して、安価な材料から出力を最大化しましょう"
+        "step1Title": "選択肢を知る",
+        "step1Description": "Trial Recruitment、スターターチーム、Pokémon HOME転送を通じて、どのポケモンが利用可能か把握しましょう。",
+        "step2Title": "メガシンカの姿を見つける",
+        "step2Description": "どのポケモンがMega Evolutionできるか、どのメガストーンを装備させる必要があるかを確認しましょう。",
+        "step3Title": "転送を計画する",
+        "step3Description": "Pokémon HOMEのライブラリからどのポケモンがPokemon Championsに連れてこられるかチェックしましょう。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのクラフトガイド"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのロスター記事"
     },
-    "items": {
-      "title": "Lucid Blocks アイテム",
-      "description": "道具、武器、移動用装備、収納ソリューションを網羅した詳細なアイテムガイド。クラフトレシピや使い方のヒントも掲載。",
-      "metaTitle": "Lucid Blocks アイテム - 道具、武器、装備ガイド",
-      "metaDescription": "道具、武器、移動用装備、収納を含む Lucid Blocks の完全アイテムデータベース。各アイテムを効果的に作り、使用する方法を学びましょう。",
-      "categoryLabel": "アイテム＆装備",
-      "whatIs": "アイテムとは？",
-      "whatIsDescription": "道具、武器、移動用装備、機能的なアイテムに関する包括的なガイド。クラフトレシピ、使用戦略、最適な組み合わせを学びましょう。",
-      "why": "なぜアイテムガイドをチェックするのか？",
+    "teams": {
+      "title": "Pokemon Champions Teams & Team Codes",
+      "description": "Pokemon Champions team guides covering starter lineups, replica team codes, and competitive team building strategies.",
+      "metaTitle": "Pokemon Champions Teams - Starter Lineups, Team Codes & Builds",
+      "metaDescription": "Find the best Pokemon Champions teams, replica team IDs, and team building guides. Copy proven competitive lineups and learn team code sharing.",
+      "categoryLabel": "TEAMS",
+      "whatIs": "What are Pokemon Champions Teams?",
+      "whatIsDescription": "Pokemon Champions lets you build and save custom teams, share them via Team IDs, and copy Replica Teams from other players for fast competitive setup.",
+      "why": "Why use team guides?",
       "whySteps": {
-        "step1Title": "クラフトレシピを学ぶ",
-        "step1Description": "Apotheosis を使用して、不可欠な道具や武器をクラフトする方法を発見しましょう",
-        "step2Title": "装備を最適化",
-        "step2Description": "プレイスタイルや進行状況に合わせて最適なアイテムを選びましょう",
-        "step3Title": "生存率を高める",
-        "step3Description": "移動用装備や武器を装備して、危険な世界を探索しましょう"
+        "step1Title": "Pick the Best Starter",
+        "step1Description": "Each starter comes with a fixed five-mon lineup, so choosing the right one shapes your early competitive game",
+        "step2Title": "Copy Proven Teams",
+        "step2Description": "Use Replica Team codes to import tested competitive lineups instantly without building from scratch",
+        "step3Title": "Build Original Teams",
+        "step3Description": "Learn team building principles like role balance, speed control, and format-specific synergies"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのアイテム"
+      "featured": "Featured & Essential",
+      "all": "All Team Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks バイオーム",
-      "description": "世界の各地域、環境の特徴、リソースの場所、各バイオームでのサバイバルのヒントを探索しましょう。",
-      "metaTitle": "Lucid Blocks バイオーム - 世界の地域と探索",
-      "metaDescription": "ティアマナ・レイライン、Fog Meadow、シュールな地域を含む Lucid Blocks のバイオームを探索。リソースを見つけ、危険を回避し、無限の世界を旅しましょう。",
-      "categoryLabel": "世界の地域",
-      "whatIs": "バイオームとは？",
-      "whatIsDescription": "世界のさまざまな地域、環境の特徴、リソースの分布、危険地帯に関するガイド。各エリアで何が待ち受けているか、どのように準備すべきかを学びましょう。",
-      "why": "なぜバイオームを探索するのか？",
+    "meta": {
+      "title": "Pokemon Champions Meta & Tier List",
+      "description": "Pokemon Champions meta analysis covering tier lists, ranked battle rankings, top picks, and tournament-level strategies.",
+      "metaTitle": "Pokemon Champions Meta - Tier List, Best Pokemon & Ranked Guide",
+      "metaDescription": "Stay on top of the Pokemon Champions meta with tier lists, best Pokemon rankings, Master Ball rank tips, and VGC-level competitive analysis.",
+      "categoryLabel": "META",
+      "whatIs": "What is the Pokemon Champions Meta?",
+      "whatIsDescription": "The Pokemon Champions meta represents the current competitive landscape, including top-tier Pokemon, dominant team archetypes, and ranked battle trends across Singles and Doubles formats.",
+      "why": "Why study the meta?",
       "whySteps": {
-        "step1Title": "リソースを見つける",
-        "step1Description": "各地域特有の希少な材料やエッセンスの場所を特定しましょう",
-        "step2Title": "危険を回避",
-        "step2Description": "環境の危険や敵対的な生物について理解しましょう",
-        "step3Title": "探索を計画",
-        "step3Description": "各バイオームのタイプに合わせて、適切な道具と装備を準備しましょう"
+        "step1Title": "Know the Top Picks",
+        "step1Description": "Understand which Pokemon dominate ranked play and which are most likely to appear in your matches",
+        "step2Title": "Reach Master Ball Rank",
+        "step2Description": "Use meta knowledge to make smarter team decisions and improve your win rate on the ranked ladder",
+        "step3Title": "Prepare for Tournaments",
+        "step3Description": "Pokemon Champions is the official VGC platform for Worlds 2026, so meta knowledge matters at every level"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのバイオーム"
+      "featured": "Featured & Essential",
+      "all": "All Meta Articles"
     },
-    "building": {
-      "title": "Lucid Blocks 建築",
-      "description": "クオリア個人次元、拠点建築、収納管理、クリエイティブな建設テクニックをマスターしましょう。",
-      "metaTitle": "Lucid Blocks 建築 - クオリアと拠点建設",
-      "metaDescription": "クオリア個人次元、拠点建設、収納ソリューション、クリエイティブな建築テクニックなど、Lucid Blocks の建築を極めましょう。",
-      "categoryLabel": "建築＆拠点",
-      "whatIs": "建築とは？",
-      "whatIsDescription": "クオリア個人次元システム、拠点建設、収納管理、クリエイティブな建築に関するガイド。シュールな世界の中に自分だけの安息の地を作る方法を学びましょう。",
-      "why": "なぜ拠点を建てるのか？",
+    "mechanics": {
+      "title": "Pokemon Champions Mechanics & Abilities",
+      "description": "Deep dives into Pokemon Champions battle mechanics, abilities, Mega Evolution, held items, and competitive interactions.",
+      "metaTitle": "Pokemon Champions Mechanics - Abilities, Items & Battle Interactions",
+      "metaDescription": "Understand Pokemon Champions battle mechanics including Innards Out, Stalwart, Unseen Fist, Mega abilities, and key held item interactions for competitive play.",
+      "categoryLabel": "MECHANICS",
+      "whatIs": "What are Pokemon Champions Mechanics?",
+      "whatIsDescription": "Pokemon Champions mechanics include all battle rules, ability interactions, held item effects, and format-specific behaviors like Mega Evolution activation and ability priority.",
+      "why": "Why learn battle mechanics?",
       "whySteps": {
-        "step1Title": "安全な場所を作る",
-        "step1Description": "収納やクラフト作業のための安全な拠点を確立しましょう",
-        "step2Title": "リソースを管理",
-        "step2Description": "収納ソリューションを使用して、材料を効率的に整理しましょう",
-        "step3Title": "クオリアをアンロック",
-        "step3Description": "究極の利便性を備えた個人のポケット次元にアクセスしましょう"
+        "step1Title": "Master Ability Interactions",
+        "step1Description": "Abilities like Innards Out, Stalwart, and Unseen Fist have unique interactions that can win or lose games",
+        "step2Title": "Use Items Effectively",
+        "step2Description": "Held items like Mega Stones, resist berries, and type boosters require mechanical understanding to use optimally",
+        "step3Title": "Avoid Costly Mistakes",
+        "step3Description": "Knowing edge cases and priority rules prevents in-game errors that cost you ranked points"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべての建築ガイド"
+      "featured": "Featured & Essential",
+      "all": "All Mechanics Articles"
     },
-    "support": {
-      "title": "Lucid Blocks サポート",
-      "description": "テクニカルサポート、プラットフォームの互換性、パフォーマンスの最適化、一般的な問題のトラブルシューティング。",
-      "metaTitle": "Lucid Blocks サポート - テクニカルヘルプと修正",
-      "metaDescription": "Steam Deck のセットアップ、クラッシュの修正、パフォーマンスの最適化、プラットフォームの互換性ガイドなど、Lucid Blocks のテクニカルサポートを受けられます。",
-      "categoryLabel": "テクニカルサポート",
-      "whatIs": "サポートとは？",
-      "whatIsDescription": "プラットフォームの互換性、パフォーマンスの最適化、クラッシュの修正、一般的な問題を網羅したテクニカルガイド。Steam Deck、マルチプレイヤーに関する質問、設定などのヘルプ。",
-      "why": "なぜサポートをチェックするのか？",
+    "rewards": {
+      "title": "Pokemon Champions Rewards & Mystery Gift Codes",
+      "description": "All Pokemon Champions rewards including Mystery Gift codes, seasonal rank prizes, VP earnings, and limited-time event bonuses.",
+      "metaTitle": "Pokemon Champions Rewards - Mystery Gift Codes, VP & Season Prizes",
+      "metaDescription": "Claim all Pokemon Champions rewards. Find active Mystery Gift codes, Starter Pack value, seasonal rank prizes, and event bonus tips for faster progression.",
+      "categoryLabel": "REWARDS",
+      "whatIs": "What are Pokemon Champions Rewards?",
+      "whatIsDescription": "Pokemon Champions rewards include Mystery Gifts (free Pokemon like Machamp, Dragonite, and Gardevoir), seasonal ranked prizes, VP earned through battles, and limited-time event bonuses.",
+      "why": "Why track rewards?",
       "whySteps": {
-        "step1Title": "技術的な問題を解決",
-        "step1Description": "クラッシュ、パフォーマンスの問題、互換性の問題を解決しましょう",
-        "step2Title": "パフォーマンスを最適化",
-        "step2Description": "お使いのプラットフォームで最高の体験を得るために設定を構成しましょう",
-        "step3Title": "プラットフォームの互換性",
-        "step3Description": "Steam Deck、コントローラーのサポート、システム要件について学びましょう"
+        "step1Title": "Claim Free Pokemon",
+        "step1Description": "Mystery Gift codes like CHAMP10N and no-code bonuses add roster value without spending VP",
+        "step2Title": "Earn Season Prizes",
+        "step2Description": "Ranked Battle results at season end determine your prizes and progression benefits",
+        "step3Title": "Maximize VP Income",
+        "step3Description": "Understanding all VP sources lets you recruit faster and build a competitive team more efficiently"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのサポート記事"
+      "featured": "Featured & Essential",
+      "all": "All Reward Guides"
+    },
+    "release": {
+      "title": "Pokemon Champions Release & Platform Info",
+      "description": "Pokemon Champions release dates, platform availability, pricing, developer info, and Switch and Switch 2 launch details.",
+      "metaTitle": "Pokemon Champions Release Date - Switch, Switch 2 & Mobile Info",
+      "metaDescription": "Full Pokemon Champions release information including launch date, Switch and Switch 2 availability, mobile release timeline, pricing, and developer ILCA details.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is Pokemon Champions?",
+      "whatIsDescription": "Pokemon Champions is a free-to-start competitive battle game developed by ILCA and published by The Pokemon Company. It launched on April 8, 2026, for Nintendo Switch and Switch 2.",
+      "why": "Why read release info?",
+      "whySteps": {
+        "step1Title": "Know the Launch Details",
+        "step1Description": "Understand the April 8, 2026 Switch launch and what platform differences to expect",
+        "step2Title": "Check Platform Availability",
+        "step2Description": "Learn which features are available on Switch vs Switch 2 and the mobile release timeline",
+        "step3Title": "Understand the Developer",
+        "step3Description": "ILCA's development background and design philosophy explain many of Pokemon Champions' competitive-first decisions"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Articles"
+    },
+    "home": {
+      "title": "Pokemon Champions Pokemon HOME Guide",
+      "description": "How to link Pokemon HOME to Pokemon Champions, transfer eligible Pokemon, and manage your collection across both apps.",
+      "metaTitle": "Pokemon Champions Pokemon HOME - Transfer Guide & Eligibility",
+      "metaDescription": "Learn how to connect Pokemon HOME to Pokemon Champions. Step-by-step transfer instructions, eligible Pokemon list, and return rules explained.",
+      "categoryLabel": "POKEMON HOME",
+      "whatIs": "What is Pokemon HOME in Pokemon Champions?",
+      "whatIsDescription": "Pokemon HOME integration in Pokemon Champions lets you transfer eligible Pokemon from your HOME library directly into competitive play, bypassing the in-game Roster Ranch recruitment system.",
+      "why": "Why use Pokemon HOME with Pokemon Champions?",
+      "whySteps": {
+        "step1Title": "Expand Your Roster Instantly",
+        "step1Description": "Bring Pokemon you already own from HOME into Pokemon Champions without spending VP on recruitment",
+        "step2Title": "Access Rare Competitive Pokemon",
+        "step2Description": "Some strong meta picks are rare through in-game recruitment but easy to transfer if you have them in HOME",
+        "step3Title": "Understand Return Rules",
+        "step3Description": "Learn when and how Pokemon can return to HOME storage and what changes apply during their visit"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Pokemon HOME Guides"
     }
   }
 }
