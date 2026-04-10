@@ -4,11 +4,15 @@ import { useEffect, Suspense, lazy } from 'react'
 import {
   ArrowRight,
   BookOpen,
+  Calendar,
   Check,
   Clock,
+  CreditCard,
   Gift,
+  Globe,
   Home,
   Package,
+  Scale,
   Shield,
   Sparkles,
   Star,
@@ -297,7 +301,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 'pokemon-champions-best-teams', 'pokemon-champions-ranked-battles-guide',
                 'pokemon-champions-pokemon-home-guide', 'pokemon-champions-all-pokemon-list',
                 'pokemon-champions-training-guide', 'pokemon-champions-movesets-and-best-builds',
-                'pokemon-champions-mega-evolution-guide', 'pokemon-champions-held-items-guide'
+                'pokemon-champions-mega-evolution-guide', 'pokemon-champions-held-items-guide',
+                'seasons-and-regulations', 'single-battle-vs-double-battle',
+                'battle-pass-and-premium-guide', 'private-battles-and-online-competitions'
               ]
               const sectionId = sectionIds[index]
 
@@ -959,6 +965,276 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 <p className="text-xs text-muted-foreground italic">{item.howToUseIt}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 标准横幅 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 13: Pokemon Champions Seasons and Regulations */}
+      <section id="seasons-and-regulations" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Calendar className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsSeasonsAndRegulations.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsSeasonsAndRegulations.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsSeasonsAndRegulations.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsSeasonsAndRegulations.intro}
+            </p>
+          </div>
+
+          {/* Desktop: horizontal timeline */}
+          <div className="scroll-reveal hidden md:grid grid-cols-4 gap-4 relative">
+            <div className="absolute top-8 left-[12.5%] right-[12.5%] h-0.5 bg-[hsl(var(--nav-theme)/0.3)]" />
+            {t.modules.pokemonChampionsSeasonsAndRegulations.items.map((item: any, index: number) => (
+              <div key={index} className="flex flex-col items-center text-center">
+                <div className="relative z-10 w-16 h-16 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center mb-4">
+                  <Calendar className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))] mb-1">{item.label}</span>
+                <p className="text-xs text-muted-foreground mb-2 font-medium">{item.date}</p>
+                <div className="p-4 bg-white/5 border border-border rounded-xl w-full text-left hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <h3 className="font-bold text-sm mb-2">{item.title}</h3>
+                  <p className="text-xs text-muted-foreground mb-3">{item.details}</p>
+                  <div className="flex flex-wrap gap-1">
+                    {item.tags.map((tag: string, ti: number) => (
+                      <span key={ti} className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.2)] text-muted-foreground">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Mobile: stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-4">
+            {t.modules.pokemonChampionsSeasonsAndRegulations.items.map((item: any, index: number) => (
+              <div key={index} className="flex gap-4 p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center">
+                  <Calendar className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+                <div className="flex-1">
+                  <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">{item.label}</span>
+                  <p className="text-xs text-muted-foreground mb-1">{item.date}</p>
+                  <h3 className="font-bold text-sm mb-1">{item.title}</h3>
+                  <p className="text-xs text-muted-foreground mb-2">{item.details}</p>
+                  <div className="flex flex-wrap gap-1">
+                    {item.tags.map((tag: string, ti: number) => (
+                      <span key={ti} className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.2)] text-muted-foreground">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 方形广告 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 14: Pokemon Champions Single Battle vs Double Battle */}
+      <section id="single-battle-vs-double-battle" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Scale className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsSingleBattleVsDoubleBattle.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsSingleBattleVsDoubleBattle.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsSingleBattleVsDoubleBattle.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsSingleBattleVsDoubleBattle.intro}
+            </p>
+          </div>
+
+          {/* Desktop: 3-column comparison table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left px-5 py-4 font-semibold w-1/3">{t.modules.pokemonChampionsSingleBattleVsDoubleBattle.headers.aspect}</th>
+                  <th className="text-left px-5 py-4 font-semibold text-[hsl(var(--nav-theme-light))] w-1/3">{t.modules.pokemonChampionsSingleBattleVsDoubleBattle.headers.single}</th>
+                  <th className="text-left px-5 py-4 font-semibold text-[hsl(var(--nav-theme-light))] w-1/3">{t.modules.pokemonChampionsSingleBattleVsDoubleBattle.headers.double}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.pokemonChampionsSingleBattleVsDoubleBattle.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border last:border-0 hover:bg-white/5 transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                    <td className="px-5 py-3 font-semibold text-muted-foreground text-xs uppercase tracking-wide">{item.aspect}</td>
+                    <td className="px-5 py-3 text-sm">{item.single}</td>
+                    <td className="px-5 py-3 text-sm">{item.double}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile: stacked comparison cards */}
+          <div className="scroll-reveal md:hidden space-y-3">
+            {t.modules.pokemonChampionsSingleBattleVsDoubleBattle.items.map((item: any, index: number) => (
+              <div key={index} className="p-4 bg-white/5 border border-border rounded-xl">
+                <p className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-3">{item.aspect}</p>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="p-3 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] rounded-lg">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] font-semibold mb-1">Singles</p>
+                    <p className="text-xs text-muted-foreground">{item.single}</p>
+                  </div>
+                  <div className="p-3 bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)] rounded-lg">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] font-semibold mb-1">Doubles</p>
+                    <p className="text-xs text-muted-foreground">{item.double}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 移动端横幅 */}
+      <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
+
+      {/* Module 15: Pokemon Champions Battle Pass and Premium Guide */}
+      <section id="battle-pass-and-premium-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <CreditCard className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsBattlePassAndPremiumGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsBattlePassAndPremiumGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsBattlePassAndPremiumGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsBattlePassAndPremiumGuide.intro}
+            </p>
+          </div>
+
+          {/* Desktop: 5-column pricing table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left px-4 py-4 font-semibold text-[hsl(var(--nav-theme-light))]">{t.modules.pokemonChampionsBattlePassAndPremiumGuide.headers.product}</th>
+                  <th className="text-left px-4 py-4 font-semibold">{t.modules.pokemonChampionsBattlePassAndPremiumGuide.headers.access}</th>
+                  <th className="text-left px-4 py-4 font-semibold">{t.modules.pokemonChampionsBattlePassAndPremiumGuide.headers.value}</th>
+                  <th className="text-left px-4 py-4 font-semibold text-muted-foreground">{t.modules.pokemonChampionsBattlePassAndPremiumGuide.headers.examples}</th>
+                  <th className="text-left px-4 py-4 font-semibold text-muted-foreground">{t.modules.pokemonChampionsBattlePassAndPremiumGuide.headers.bestFor}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.pokemonChampionsBattlePassAndPremiumGuide.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border last:border-0 hover:bg-white/5 transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                    <td className="px-4 py-3 font-bold text-[hsl(var(--nav-theme-light))]">{item.product}</td>
+                    <td className="px-4 py-3 text-xs text-muted-foreground">{item.access}</td>
+                    <td className="px-4 py-3 text-sm">{item.value}</td>
+                    <td className="px-4 py-3 text-xs text-muted-foreground">{item.examples}</td>
+                    <td className="px-4 py-3 text-xs font-medium text-[hsl(var(--nav-theme-light))]">{item.bestFor}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile: stacked offer cards */}
+          <div className="scroll-reveal md:hidden space-y-3">
+            {t.modules.pokemonChampionsBattlePassAndPremiumGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-4 bg-white/5 border border-border rounded-xl">
+                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">{item.product}</h3>
+                <p className="text-xs text-muted-foreground mb-2">{item.access}</p>
+                <p className="text-sm mb-2">{item.value}</p>
+                <div className="p-2 bg-[hsl(var(--nav-theme)/0.05)] border border-[hsl(var(--nav-theme)/0.2)] rounded-lg mb-2">
+                  <p className="text-xs text-muted-foreground italic">{item.examples}</p>
+                </div>
+                <p className="text-xs font-medium text-[hsl(var(--nav-theme-light))]">{item.bestFor}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 中型横幅 */}
+      <AdBanner type="banner-468x60" adKey={process.env.NEXT_PUBLIC_AD_BANNER_468X60} />
+
+      {/* Module 16: Pokemon Champions Private Battles and Online Competitions */}
+      <section id="private-battles-and-online-competitions" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Globe className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsPrivateBattlesAndOnlineCompetitions.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsPrivateBattlesAndOnlineCompetitions.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsPrivateBattlesAndOnlineCompetitions.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsPrivateBattlesAndOnlineCompetitions.intro}
+            </p>
+          </div>
+
+          {/* 2-column step flow: Private Battles (steps 1-6) and Online Competitions (steps 7-11) */}
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* Left column: Private Battles steps 1-6 */}
+            <div>
+              <h3 className="text-base font-bold mb-4 px-1 text-[hsl(var(--nav-theme-light))] flex items-center gap-2">
+                <Globe className="w-4 h-4" /> Private Battles
+              </h3>
+              <div className="space-y-3">
+                {t.modules.pokemonChampionsPrivateBattlesAndOnlineCompetitions.items.slice(0, 6).map((item: any, index: number) => (
+                  <div key={index} className="flex gap-3 p-4 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center">
+                      <span className="text-sm font-bold text-[hsl(var(--nav-theme-light))]">{item.step}</span>
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-sm mb-1">{item.title}</h4>
+                      <p className="text-xs text-muted-foreground">{item.details}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right column: Online Competitions steps 7-11 */}
+            <div>
+              <h3 className="text-base font-bold mb-4 px-1 text-[hsl(var(--nav-theme-light))] flex items-center gap-2">
+                <Trophy className="w-4 h-4" /> Online Competitions
+              </h3>
+              <div className="space-y-3">
+                {t.modules.pokemonChampionsPrivateBattlesAndOnlineCompetitions.items.slice(6).map((item: any, index: number) => (
+                  <div key={index} className="flex gap-3 p-4 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center">
+                      <span className="text-sm font-bold text-[hsl(var(--nav-theme-light))]">{item.step}</span>
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="font-semibold text-sm mb-1">{item.title}</h4>
+                      <p className="text-xs text-muted-foreground">{item.details}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>

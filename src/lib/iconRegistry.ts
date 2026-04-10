@@ -33,6 +33,12 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Swords: LucideIcons.Swords,
   Zap: LucideIcons.Zap,
 
+  // 模块专用图标
+  Calendar: LucideIcons.Calendar,
+  Scale: LucideIcons.Scale,
+  CreditCard: LucideIcons.CreditCard,
+  Globe: LucideIcons.Globe,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
