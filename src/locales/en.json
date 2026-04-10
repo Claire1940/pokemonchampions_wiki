@@ -78,6 +78,26 @@
         "icon": "Trophy",
         "title": "Pokemon Champions Tier List",
         "description": "S and A-tier picks for Singles, Doubles, and Mega play"
+      },
+      {
+        "icon": "Shield",
+        "title": "Pokemon Champions Best Teams",
+        "description": "Copy proven replica team codes for fast-track competitive play"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Pokemon Champions Ranked Battles Guide",
+        "description": "VP rewards, rank ladder, seasons, and esports rules explained"
+      },
+      {
+        "icon": "Home",
+        "title": "Pokemon Champions Pokemon HOME Guide",
+        "description": "Step-by-step HOME linking, eligible transfers, and return rules"
+      },
+      {
+        "icon": "Star",
+        "title": "Pokemon Champions All Pokemon List",
+        "description": "Launch roster, Mega forms, regional variants, and transfer limits"
       }
     ]
   },
@@ -381,6 +401,263 @@
           "bestIn": "Fast mixed pressure",
           "whyItWins": "Greninja keeps value through elite speed, broad move access, and Protean-driven flexibility, even if it stays fragile.",
           "howToGet": "Recruit it, or move it in through HOME if you already own one."
+        }
+      ]
+    },
+    "pokemonChampionsBestTeams": {
+      "eyebrow": "Team Builder",
+      "title": "Pokemon Champions Best Replica Teams to Copy",
+      "subtitle": "These are the most practical early teams to build around if you want ready-made lineups instead of starting from scratch. Each card shows the full six-Pokemon shell, the replica code, and the playstyle it supports.",
+      "intro": "Replica Teams are the fastest way to jump into serious battles with a proven lineup. The strongest early teams already center on recurring staples like Charizard, Incineroar, Garchomp, Gengar, Palafin, and Archaludon, with both weather offense and control styles represented.",
+      "items": [
+        {
+          "card_title": "Mega Charizard Y",
+          "team_code": "QGYAG5WE3C",
+          "owner": "LenVGC",
+          "style": "Balanced sun offense",
+          "full_team": [
+            "Charizard",
+            "Venusaur",
+            "Garchomp",
+            "Milotic",
+            "Gardevoir",
+            "Incineroar"
+          ],
+          "best_for": "A flexible first replica team with immediate Mega pressure, speed control, and solid defensive pivots."
+        },
+        {
+          "card_title": "Rain Palafin",
+          "team_code": "D96E6SXLN8",
+          "owner": "Xeb41",
+          "style": "Rain offense",
+          "full_team": [
+            "Palafin",
+            "Pelipper",
+            "Incineroar",
+            "Klefki",
+            "Sinistcha",
+            "Dragonite"
+          ],
+          "best_for": "Players who want a fast weather team with immediate pressure and strong utility support."
+        },
+        {
+          "card_title": "Sash Gengar",
+          "team_code": "PTVY9BE1V3",
+          "owner": "SplashPlate",
+          "style": "Fast tempo offense",
+          "full_team": [
+            "Gengar",
+            "Garchomp",
+            "Clefable",
+            "Meowscarada",
+            "Delphox",
+            "Corviknight"
+          ],
+          "best_for": "A quick ladder team that leans on strong early pressure and fast revenge options."
+        },
+        {
+          "card_title": "Meganium Rain",
+          "team_code": "K5N29KPU9T",
+          "owner": "NatusPKMN",
+          "style": "Rain balance",
+          "full_team": [
+            "Meganium",
+            "Archaludon",
+            "Basculegion",
+            "Maushold",
+            "Politoed",
+            "Talonflame"
+          ],
+          "best_for": "A rounded weather shell for players who want rain support without giving up utility and speed options."
+        },
+        {
+          "card_title": "Golurk Trick Room",
+          "team_code": "HH3MF048VV",
+          "owner": "Its_WDMichael",
+          "style": "Trick Room control",
+          "full_team": [
+            "Hatterene",
+            "Oranguru",
+            "Golurk",
+            "Clefable",
+            "Hydreigon",
+            "Torkoal"
+          ],
+          "best_for": "A slower control lineup built around setting Trick Room and letting heavy hitters take over."
+        }
+      ]
+    },
+    "pokemonChampionsRankedBattlesGuide": {
+      "eyebrow": "Competitive",
+      "title": "Pokemon Champions Ranked Battles Guide",
+      "subtitle": "Ranked Battles are the main long-term progression loop for competitive players. This table covers formats, VP gains, season structure, and the current launch-season setup.",
+      "intro": "Pokemon Champions is built around competitive battling, and Ranked Battles sit at the center of that loop. You climb by playing against trainers of similar skill, earn VP after matches, and push through rotating seasonal regulations that reshape the legal roster over time.",
+      "items": [
+        {
+          "topic": "Battle formats",
+          "value": "Singles and Doubles",
+          "details": "Ranked Battles, Casual Battles, and Private Battles all support both Single Battle and Double Battle formats."
+        },
+        {
+          "topic": "Matchmaking",
+          "value": "Skill-based pairing",
+          "details": "Your rank changes with your results, and Ranked Battles are designed to match you against trainers of similar skill."
+        },
+        {
+          "topic": "VP rewards",
+          "value": "Earn VP after Ranked matches",
+          "details": "Victory Points are used to recruit and train Pokemon, and VP cannot be purchased directly."
+        },
+        {
+          "topic": "Rank ladder",
+          "value": "Poke Ball to Champion",
+          "details": "Players begin at Poke Ball Tier, Rank 4, then climb through sub-ranks and higher tiers as wins stack up."
+        },
+        {
+          "topic": "Mega Evolution",
+          "value": "Active in the first ruleset",
+          "details": "Mega Evolution is enabled in Ranked Battles at launch through the Omni Ring."
+        },
+        {
+          "topic": "Season structure",
+          "value": "Results are tallied every season",
+          "details": "Final placement, final rank, and season rewards are all determined from your season results."
+        },
+        {
+          "topic": "Regulations",
+          "value": "Rules rotate every few seasons",
+          "details": "Eligible Pokemon and other battle parameters change when a new regulation set begins."
+        },
+        {
+          "topic": "Current ranked season",
+          "value": "Season M-1",
+          "details": "The current launch season runs from April 8, 2026 at 02:00 UTC to June 17, 2026 at 01:59 UTC under Regulation Set M-A."
+        },
+        {
+          "topic": "Battle Pass link",
+          "value": "SP comes from battles",
+          "details": "Season Points are earned through Ranked Battles and other play, and both SP and the Battle Pass reset each season."
+        },
+        {
+          "topic": "Esports role",
+          "value": "Worlds 2026 VGC software",
+          "details": "Starting in 2026, Pokemon Champions is the VGC software for the Pokemon World Championships and qualifying Championship Series play."
+        }
+      ]
+    },
+    "pokemonChampionsPokemonHomeGuide": {
+      "eyebrow": "Connectivity",
+      "title": "Pokemon Champions Pokemon HOME Guide",
+      "subtitle": "Pokemon HOME is one of the defining features of Champions because it lets you bring in eligible partners from other games. The key is knowing the exact transfer path and the rules that apply once a Pokemon becomes a visitor.",
+      "intro": "Pokemon Champions uses Pokemon HOME as a bridge between your older collections and the new battle-focused roster. The workflow is straightforward once linked, but visitors follow game-specific rules for move legality, storage, and return transfers.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Link the same Nintendo Account",
+          "description": "Use the same Nintendo Account for the Nintendo Switch version and mobile device version of Pokemon HOME so both versions can access the same stored Pokemon."
+        },
+        {
+          "step": 2,
+          "title": "Open the Champions connection in HOME",
+          "description": "On Nintendo Switch, select the Pokemon Champions icon from the HOME screen. On mobile, go to Options and use Send for a Visit in the Link with Pokemon Champions section."
+        },
+        {
+          "step": 3,
+          "title": "Choose only eligible visitors",
+          "description": "Only Pokemon that appear in Pokemon Champions can visit. If a species is not supported by the current Champions roster, it cannot be sent in."
+        },
+        {
+          "step": 4,
+          "title": "Send and collect in Champions",
+          "description": "After sending a visitor from HOME, go into Pokemon Champions, open Recruit, and use Collect from Pokemon HOME to bring that Pokemon into your Champions box."
+        },
+        {
+          "step": 5,
+          "title": "Fix moves through training",
+          "description": "If a visiting Pokemon knows moves that cannot be used in Pokemon Champions, retrain that moveset inside Champions before using it in battle."
+        },
+        {
+          "step": 6,
+          "title": "Understand what can return",
+          "description": "Visiting Pokemon can be sent back to Pokemon HOME, but Pokemon obtained inside Pokemon Champions cannot be deposited into Pokemon HOME."
+        },
+        {
+          "step": 7,
+          "title": "Keep the training rules in mind",
+          "description": "Training done in Pokemon Champions does not carry over to Pokemon HOME. If the same visitor comes back to Champions later, its Champions training is preserved."
+        },
+        {
+          "step": 8,
+          "title": "Use HOME to manage limited storage",
+          "description": "Champions starts with a compact box setup, so HOME is the easiest way to rotate older favorites in and out while keeping your battle-ready roster focused."
+        }
+      ]
+    },
+    "pokemonChampionsAllPokemonList": {
+      "eyebrow": "Roster",
+      "title": "Pokemon Champions All Pokemon List",
+      "subtitle": "Roster intent is strong because every transfer, team plan, and upgrade decision depends on what is actually usable. This overview gives the launch-size snapshot, notable forms, and the biggest availability rules players need to know first.",
+      "intro": "Pokemon Champions launched with a sizable but curated roster built for competitive play rather than full National Dex coverage. Mega Evolutions are already a major part of the roster, several regional and special forms are supported, and a few important transfer restrictions shape what players can actually bring in.",
+      "items": [
+        {
+          "section": "Overview",
+          "entry": "Available species",
+          "value": "187",
+          "notes": "The game currently lists 187 Pokemon species in its available roster."
+        },
+        {
+          "section": "Overview",
+          "entry": "Mega Evolutions",
+          "value": "59",
+          "notes": "Mega forms are tracked separately from the base species list."
+        },
+        {
+          "section": "Current regulation",
+          "entry": "Regular Roster M-A",
+          "value": "Active until June 16, 2026",
+          "notes": "Pokemon outside the current roster need an event or transfer route to be obtained."
+        },
+        {
+          "section": "Transfer-only",
+          "entry": "Eternal Flower Floette",
+          "value": "Allowed",
+          "notes": "It is legal under the current regulation but must be transferred from Pokemon Legends: Z-A through HOME."
+        },
+        {
+          "section": "Regional forms",
+          "entry": "Confirmed alternate forms",
+          "value": "Alolan Raichu, Alolan Ninetales, Hisuian Arcanine, Hisuian Decidueye",
+          "notes": "Permanent forms are listed alongside their base species in the roster."
+        },
+        {
+          "section": "Notable roster",
+          "entry": "Modern competitive picks",
+          "value": "Incineroar, Meowscarada, Palafin, Farigiraf, Kingambit, Archaludon",
+          "notes": "Many of the most searched battle-ready names are already present in the launch-era pool."
+        },
+        {
+          "section": "Mega roster",
+          "entry": "Confirmed examples",
+          "value": "Mega Charizard X, Mega Charizard Y, Mega Blastoise, Mega Dragonite, Mega Feraligatr",
+          "notes": "The launch Mega pool includes both classic Mega staples and newly supported evolutions."
+        },
+        {
+          "section": "Restrictions",
+          "entry": "Legendary and Mythical Pokemon",
+          "value": "Not present at launch",
+          "notes": "The launch roster contains no Legendary or Mythical Pokemon."
+        },
+        {
+          "section": "Restrictions",
+          "entry": "Special transfer limit",
+          "value": "Battle Bond Greninja cannot be sent",
+          "notes": "Some special variants remain excluded even when the base species family is supported."
+        },
+        {
+          "section": "Restrictions",
+          "entry": "Data but not transferable",
+          "value": "Pawmot",
+          "notes": "Pawmot appears in the game data but cannot currently be transferred in."
         }
       ]
     }

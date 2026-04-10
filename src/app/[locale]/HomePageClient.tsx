@@ -7,9 +7,12 @@ import {
   Check,
   Clock,
   Gift,
+  Home,
+  Shield,
   Sparkles,
   Star,
   Trophy,
+  TrendingUp,
   Users,
 } from 'lucide-react'
 import Link from 'next/link'
@@ -286,7 +289,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             {t.tools.cards.map((card: any, index: number) => {
               // 映射卡片索引到 section ID
               const sectionIds = [
-                'mystery-gift-codes', 'beginner-guide', 'starter-teams', 'tier-list'
+                'mystery-gift-codes', 'beginner-guide', 'starter-teams', 'tier-list',
+                'pokemon-champions-best-teams', 'pokemon-champions-ranked-battles-guide',
+                'pokemon-champions-pokemon-home-guide', 'pokemon-champions-all-pokemon-list'
               ]
               const sectionId = sectionIds[index]
 
@@ -545,6 +550,216 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Pokemon Champions Best Teams */}
+      <section id="pokemon-champions-best-teams" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsBestTeams.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsBestTeams.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsBestTeams.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsBestTeams.intro}
+            </p>
+          </div>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {t.modules.pokemonChampionsBestTeams.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col">
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="font-bold text-lg text-[hsl(var(--nav-theme-light))]">{item.card_title}</h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-muted-foreground flex-shrink-0">
+                    {item.style}
+                  </span>
+                </div>
+                <div className="mb-4 p-3 bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] rounded-lg">
+                  <p className="text-xs text-muted-foreground mb-1">Replica Code</p>
+                  <code className="font-mono font-bold text-[hsl(var(--nav-theme-light))] text-base tracking-widest">{item.team_code}</code>
+                </div>
+                <p className="text-xs text-muted-foreground mb-3">by <span className="text-foreground font-medium">{item.owner}</span></p>
+                <div className="flex flex-wrap gap-1 mb-4 flex-1">
+                  {item.full_team.map((member: string, mi: number) => (
+                    <span key={mi} className="text-xs px-2 py-0.5 rounded bg-white/5 border border-border text-muted-foreground">
+                      {member}
+                    </span>
+                  ))}
+                </div>
+                <div className="pt-3 border-t border-border">
+                  <p className="text-xs text-muted-foreground italic">{item.best_for}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 标准横幅 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 6: Pokemon Champions Ranked Battles Guide */}
+      <section id="pokemon-champions-ranked-battles-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsRankedBattlesGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsRankedBattlesGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsRankedBattlesGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsRankedBattlesGuide.intro}
+            </p>
+          </div>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left px-6 py-4 font-semibold text-[hsl(var(--nav-theme-light))] w-1/4">Topic</th>
+                  <th className="text-left px-6 py-4 font-semibold w-1/3">Value</th>
+                  <th className="text-left px-6 py-4 font-semibold text-muted-foreground">Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.pokemonChampionsRankedBattlesGuide.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border last:border-0 hover:bg-white/5 transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                    <td className="px-6 py-4 font-medium text-[hsl(var(--nav-theme-light))]">{item.topic}</td>
+                    <td className="px-6 py-4 font-semibold">{item.value}</td>
+                    <td className="px-6 py-4 text-muted-foreground">{item.details}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-3">
+            {t.modules.pokemonChampionsRankedBattlesGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-4 bg-white/5 border border-border rounded-xl">
+                <p className="text-xs text-[hsl(var(--nav-theme-light))] font-semibold mb-1">{item.topic}</p>
+                <p className="font-bold mb-2">{item.value}</p>
+                <p className="text-sm text-muted-foreground">{item.details}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 原生横幅 */}
+      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ''} />
+
+      {/* Module 7: Pokemon Champions Pokemon HOME Guide */}
+      <section id="pokemon-champions-pokemon-home-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Home className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsPokemonHomeGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsPokemonHomeGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsPokemonHomeGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsPokemonHomeGuide.intro}
+            </p>
+          </div>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4">
+            {t.modules.pokemonChampionsPokemonHomeGuide.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-5 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-lg font-bold text-[hsl(var(--nav-theme-light))]">{step.step}</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-bold mb-1">{step.title}</h3>
+                  <p className="text-sm text-muted-foreground">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 方形广告 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 8: Pokemon Champions All Pokemon List */}
+      <section id="pokemon-champions-all-pokemon-list" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsAllPokemonList.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsAllPokemonList.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsAllPokemonList.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsAllPokemonList.intro}
+            </p>
+          </div>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left px-5 py-4 font-semibold text-[hsl(var(--nav-theme-light))] w-1/5">Section</th>
+                  <th className="text-left px-5 py-4 font-semibold w-1/4">Entry</th>
+                  <th className="text-left px-5 py-4 font-semibold w-1/5">Value</th>
+                  <th className="text-left px-5 py-4 font-semibold text-muted-foreground">Notes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.pokemonChampionsAllPokemonList.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border last:border-0 hover:bg-white/5 transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                    <td className="px-5 py-3">
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                        {item.section}
+                      </span>
+                    </td>
+                    <td className="px-5 py-3 font-medium">{item.entry}</td>
+                    <td className="px-5 py-3 font-bold text-[hsl(var(--nav-theme-light))]">{item.value}</td>
+                    <td className="px-5 py-3 text-muted-foreground text-xs">{item.notes}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-3">
+            {t.modules.pokemonChampionsAllPokemonList.items.map((item: any, index: number) => (
+              <div key={index} className="p-4 bg-white/5 border border-border rounded-xl">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                    {item.section}
+                  </span>
+                  <span className="font-bold text-[hsl(var(--nav-theme-light))] text-sm">{item.value}</span>
+                </div>
+                <p className="font-medium text-sm mb-1">{item.entry}</p>
+                <p className="text-xs text-muted-foreground">{item.notes}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
