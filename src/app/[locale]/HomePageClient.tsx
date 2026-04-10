@@ -8,12 +8,16 @@ import {
   Clock,
   Gift,
   Home,
+  Package,
   Shield,
   Sparkles,
   Star,
+  Swords,
+  Target,
   Trophy,
   TrendingUp,
   Users,
+  Zap,
 } from 'lucide-react'
 import Link from 'next/link'
 import { useMessages } from 'next-intl'
@@ -291,7 +295,9 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               const sectionIds = [
                 'mystery-gift-codes', 'beginner-guide', 'starter-teams', 'tier-list',
                 'pokemon-champions-best-teams', 'pokemon-champions-ranked-battles-guide',
-                'pokemon-champions-pokemon-home-guide', 'pokemon-champions-all-pokemon-list'
+                'pokemon-champions-pokemon-home-guide', 'pokemon-champions-all-pokemon-list',
+                'pokemon-champions-training-guide', 'pokemon-champions-movesets-and-best-builds',
+                'pokemon-champions-mega-evolution-guide', 'pokemon-champions-held-items-guide'
               ]
               const sectionId = sectionIds[index]
 
@@ -758,6 +764,199 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </div>
                 <p className="font-medium text-sm mb-1">{item.entry}</p>
                 <p className="text-xs text-muted-foreground">{item.notes}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 原生横幅 */}
+      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ''} />
+
+      {/* Module 9: Pokemon Champions Training Guide */}
+      <section id="pokemon-champions-training-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Target className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsTrainingGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsTrainingGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsTrainingGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsTrainingGuide.intro}
+            </p>
+          </div>
+          <div className="scroll-reveal space-y-4">
+            {t.modules.pokemonChampionsTrainingGuide.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{step.step}</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                  <p className="text-muted-foreground">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 标准横幅 */}
+      <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
+
+      {/* Module 10: Pokemon Champions Movesets and Best Builds */}
+      <section id="pokemon-champions-movesets-and-best-builds" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Swords className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsMovesetsAndBestBuilds.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsMovesetsAndBestBuilds.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsMovesetsAndBestBuilds.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsMovesetsAndBestBuilds.intro}
+            </p>
+          </div>
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.pokemonChampionsMovesetsAndBestBuilds.items.map((item: any, index: number) => (
+              <div key={index} className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors flex flex-col">
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="font-bold text-xl text-[hsl(var(--nav-theme-light))]">{item.pokemon}</h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-muted-foreground flex-shrink-0 ml-2">
+                    {item.format}
+                  </span>
+                </div>
+                <p className="text-sm font-medium text-muted-foreground mb-4">{item.role}</p>
+                <div className="space-y-3 flex-1">
+                  <div className="p-3 bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)] rounded-lg">
+                    <p className="text-xs text-muted-foreground mb-1 font-semibold uppercase tracking-wide">Core Build</p>
+                    <p className="text-sm font-mono text-foreground">{item.coreBuild}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-muted-foreground mb-1 font-semibold uppercase tracking-wide">Top Items</p>
+                    <p className="text-sm text-muted-foreground">{item.topItems}</p>
+                  </div>
+                  <div>
+                    <p className="text-xs text-muted-foreground mb-1 font-semibold uppercase tracking-wide">Common Moves</p>
+                    <p className="text-sm text-muted-foreground">{item.commonMoves}</p>
+                  </div>
+                </div>
+                <div className="mt-4 pt-3 border-t border-border">
+                  <p className="text-xs text-muted-foreground italic">{item.teamNote}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 方形广告 */}
+      <AdBanner type="banner-300x250" adKey={process.env.NEXT_PUBLIC_AD_BANNER_300X250} />
+
+      {/* Module 11: Pokemon Champions Mega Evolution Guide */}
+      <section id="pokemon-champions-mega-evolution-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Zap className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsMegaEvolutionGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsMegaEvolutionGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsMegaEvolutionGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsMegaEvolutionGuide.intro}
+            </p>
+          </div>
+          <div className="scroll-reveal space-y-4">
+            {t.modules.pokemonChampionsMegaEvolutionGuide.steps.map((step: any, index: number) => (
+              <div key={index} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.2)] border-2 border-[hsl(var(--nav-theme)/0.5)] flex items-center justify-center">
+                  <span className="text-xl font-bold text-[hsl(var(--nav-theme-light))]">{step.step}</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                  <p className="text-muted-foreground">{step.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 广告位: 移动端横幅 */}
+      <AdBanner type="banner-320x50" adKey={process.env.NEXT_PUBLIC_AD_MOBILE_320X50} />
+
+      {/* Module 12: Pokemon Champions Held Items Guide */}
+      <section id="pokemon-champions-held-items-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span>{t.modules.pokemonChampionsHeldItemsGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t.modules.pokemonChampionsHeldItemsGuide.title}
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-2">
+              {t.modules.pokemonChampionsHeldItemsGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-3xl mx-auto">
+              {t.modules.pokemonChampionsHeldItemsGuide.intro}
+            </p>
+          </div>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.1)] border-b border-border">
+                  <th className="text-left px-5 py-4 font-semibold text-[hsl(var(--nav-theme-light))] w-1/5">Item / Group</th>
+                  <th className="text-left px-5 py-4 font-semibold w-1/4">Examples</th>
+                  <th className="text-left px-5 py-4 font-semibold w-1/5">Effect</th>
+                  <th className="text-left px-5 py-4 font-semibold text-muted-foreground w-1/5">How to Use</th>
+                  <th className="text-left px-5 py-4 font-semibold text-muted-foreground">Cost / Source</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.pokemonChampionsHeldItemsGuide.items.map((item: any, index: number) => (
+                  <tr key={index} className={`border-b border-border last:border-0 hover:bg-white/5 transition-colors ${index % 2 === 0 ? '' : 'bg-white/[0.02]'}`}>
+                    <td className="px-5 py-3 font-semibold text-[hsl(var(--nav-theme-light))]">{item.itemOrGroup}</td>
+                    <td className="px-5 py-3 text-xs text-muted-foreground">{item.examples}</td>
+                    <td className="px-5 py-3 text-sm">{item.whatItDoes}</td>
+                    <td className="px-5 py-3 text-xs text-muted-foreground">{item.howToUseIt}</td>
+                    <td className="px-5 py-3 text-xs font-medium text-[hsl(var(--nav-theme-light))]">{item.vpCostOrSource}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile stacked cards */}
+          <div className="scroll-reveal md:hidden space-y-3">
+            {t.modules.pokemonChampionsHeldItemsGuide.items.map((item: any, index: number) => (
+              <div key={index} className="p-4 bg-white/5 border border-border rounded-xl">
+                <div className="flex items-center justify-between mb-2">
+                  <p className="font-semibold text-[hsl(var(--nav-theme-light))]">{item.itemOrGroup}</p>
+                  <span className="text-xs text-[hsl(var(--nav-theme-light))] font-medium">{item.vpCostOrSource}</span>
+                </div>
+                <p className="text-xs text-muted-foreground mb-2">{item.examples}</p>
+                <p className="text-sm mb-1">{item.whatItDoes}</p>
+                <p className="text-xs text-muted-foreground italic">{item.howToUseIt}</p>
               </div>
             ))}
           </div>

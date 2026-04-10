@@ -98,6 +98,26 @@
         "icon": "Star",
         "title": "Pokemon Champions All Pokemon List",
         "description": "Launch roster, Mega forms, regional variants, and transfer limits"
+      },
+      {
+        "icon": "Target",
+        "title": "Pokemon Champions Training Guide",
+        "description": "VP income, stat training, and role-based builds for your roster"
+      },
+      {
+        "icon": "Swords",
+        "title": "Pokemon Champions Movesets and Best Builds",
+        "description": "Incineroar, Archaludon, Salamence, and Maushold meta builds"
+      },
+      {
+        "icon": "Zap",
+        "title": "Pokemon Champions Mega Evolution Guide",
+        "description": "How to equip Mega Stones and activate Mega Evolution in battle"
+      },
+      {
+        "icon": "Package",
+        "title": "Pokemon Champions Held Items Guide",
+        "description": "Type boosters, resist berries, and high-impact utility items explained"
       }
     ]
   },
@@ -658,6 +678,187 @@
           "entry": "Data but not transferable",
           "value": "Pawmot",
           "notes": "Pawmot appears in the game data but cannot currently be transferred in."
+        }
+      ]
+    },
+    "pokemonChampionsTrainingGuide": {
+      "eyebrow": "Progression",
+      "title": "Pokemon Champions Training Guide",
+      "subtitle": "Train Your Roster Around VP, Roles, and Long-Term Value",
+      "intro": "Training in Pokemon Champions is not just a stat screen. VP powers recruitment and customization, and the game also lets you edit moves and Abilities once a Pokemon is permanently on your roster. A good training flow starts with steady VP income, avoids wasting resources on temporary trial recruits, and finishes by aligning stats, nature, and held item choices with the role each Pokemon is meant to play.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Build VP income first",
+          "description": "Ranked Battles award Victory Points after matches, and VP is the core currency used for both recruiting and training Pokemon. VP cannot be purchased directly, so regular battle volume is the foundation of roster growth."
+        },
+        {
+          "step": 2,
+          "title": "Use Roster Ranch efficiently",
+          "description": "Roster Ranch gives you a free random lineup refresh every 22 hours. You can also use Trial Recruitment once per day without spending VP, which is useful for testing whether a Pokemon fits your team plan before you commit resources."
+        },
+        {
+          "step": 3,
+          "title": "Promote keepers before you invest heavily",
+          "description": "Trial recruits cannot be trained, so major VP spending should go into Pokemon you plan to keep. Permanent Recruitment uses VP, while Teammate Tickets from in-game missions can permanently recruit a Pokemon without paying VP."
+        },
+        {
+          "step": 4,
+          "title": "Train by battle role, not by habit",
+          "description": "Each Pokemon gets 66 extra stat points, with a maximum of 32 points in a single stat. Fast sweepers usually prioritize Speed plus one attacking stat, while bulky attackers and tanks lean into HP, Defense, or Special Defense depending on the matchup role they need to cover."
+        },
+        {
+          "step": 5,
+          "title": "Finish the build with nature, moves, ability, and item synergy",
+          "description": "Pokemon Champions lets you train stats, moves, and Abilities, and Training Tickets can reduce the VP cost of training to zero. After the role is set, complete the build with a nature and held item that fit the plan instead of buying items at random."
+        }
+      ]
+    },
+    "pokemonChampionsMovesetsAndBestBuilds": {
+      "eyebrow": "Builds",
+      "title": "Pokemon Champions Movesets and Best Builds",
+      "subtitle": "Early Meta Builds to Copy, Compare, and Adapt",
+      "intro": "Movesets in Pokemon Champions are not one-size-fits-all. Some Pokemon already have very stable doubles packages, while others split into support, offense, or rain-based variants. This module highlights builds that are easy to understand at a glance, with enough detail for players to decide whether they want a safe ladder setup or a more specialized team slot.",
+      "items": [
+        {
+          "pokemon": "Incineroar",
+          "role": "Top-tier utility pivot",
+          "format": "Doubles core, with a separate singles variant",
+          "coreBuild": "Intimidate | Fake Out / Flare Blitz / Knock Off / U-turn",
+          "topItems": "Assault Vest 35.5%, Safety Goggles 26.0%, Sitrus Berry 24.2%, Rocky Helmet 8.5%",
+          "commonMoves": "Fake Out 99.8%, Flare Blitz 91.0%, Knock Off 84.2%, Parting Shot 62.2%",
+          "teamNote": "Games.gg also highlights a singles build using Impish nature, Leftovers or Sitrus Berry, and Flare Blitz / Parting Shot / Darkest Lariat / Will-O-Wisp."
+        },
+        {
+          "pokemon": "Archaludon",
+          "role": "Rain pressure special tank",
+          "format": "Doubles rain",
+          "coreBuild": "Stamina | Assault Vest | Electro Shot / Flash Cannon / Body Press / Dragon Pulse",
+          "topItems": "Assault Vest 94.1%; Power Herb 4.4% is the main alternative",
+          "commonMoves": "Electro Shot 94.6%, Flash Cannon 80.3%, Body Press 75.4%, Dragon Pulse 55.2%",
+          "teamNote": "Pelipper and Urshifu-Rapid-Strike are the clearest partners, with Amoonguss frequently rounding out the core."
+        },
+        {
+          "pokemon": "Salamence",
+          "role": "Flexible speed-control attacker",
+          "format": "Doubles utility or rain flex",
+          "coreBuild": "Intimidate | Draco Meteor / Protect / Air Slash / Tailwind",
+          "topItems": "Life Orb 28.6%; Choice Scarf, Rocky Helmet, Covert Cloak, Sitrus Berry, and Eject Pack each appear as viable variants",
+          "commonMoves": "Draco Meteor 71.4%, Protect 71.4%, Air Slash 57.1%, Tailwind 42.9%",
+          "teamNote": "A rain-flavored variant also appears with Eject Pack plus Draco Meteor / Hurricane / Hydro Pump / Protect."
+        },
+        {
+          "pokemon": "Maushold",
+          "role": "Follow Me support and Beat Up enabler",
+          "format": "Doubles support",
+          "coreBuild": "Friend Guard | Follow Me / Protect / Beat Up / Taunt",
+          "topItems": "Wide Lens 23.1%, Rocky Helmet 23.1%, Covert Cloak 15.4%, Focus Sash 15.4%",
+          "commonMoves": "Follow Me 100.0%, Protect 61.5%, Beat Up 46.2%, Taunt 46.2%",
+          "teamNote": "Friend Guard is the main ability at 69.2%, but Technician Population Bomb variants also show up as a more aggressive alternative."
+        }
+      ]
+    },
+    "pokemonChampionsMegaEvolutionGuide": {
+      "eyebrow": "Mega Evolution",
+      "title": "Pokemon Champions Mega Evolution Guide",
+      "subtitle": "How to Equip Mega Stones and Use Mega Evolution Correctly",
+      "intro": "This guide covers the exact questions most players hit first: where Mega Stones are stored, how to equip them, when the Mega toggle appears in battle, and which stones are already confirmed in the launch shop. Mega Evolution is powerful, but it also costs your held-item slot and can only be activated once per battle, so good execution matters as much as picking the right Mega.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Finish the tutorial before trying to use Mega Stones",
+          "description": "Mega Stones are not usable until the tutorial is complete. Buying one early does not break anything, but the item cannot be equipped until that tutorial gate has been cleared."
+        },
+        {
+          "step": 2,
+          "title": "Open the correct item menu",
+          "description": "Use either the Box menu and press X for the Held Item screen, or select a Pokemon in your active battle lineup and choose Give an Item to Hold. Mega Stones sit in a separate tab, so they will not show up in the standard inventory view."
+        },
+        {
+          "step": 3,
+          "title": "Match the stone to the Pokemon species",
+          "description": "Mega Stones are species-specific, such as Gengarite for Gengar. Equipping one also uses the held-item slot, so that Pokemon gives up options like Sitrus Berry, Assault Vest, or Rocky Helmet."
+        },
+        {
+          "step": 4,
+          "title": "Trigger Mega Evolution during the battle",
+          "description": "When the correct holder is active in battle, choose Fight and press R to toggle Mega Evolution before selecting the move. Only one Pokemon can Mega Evolve per battle, and if that Pokemon switches out later, it stays in Mega form."
+        },
+        {
+          "step": 5,
+          "title": "Prioritize the launch stones that are easy to plan around",
+          "description": "Confirmed launch-shop examples include Charizardite X, Charizardite Y, Gengarite, Tyranitarite, Scizorite, and Gardevoirite at 2000 VP each. Additional Mega Stones are tied to routes such as the Mega Evolution Tutorial, Battle Pass rewards, Mystery Gifts, and the Frontier Shop."
+        }
+      ]
+    },
+    "pokemonChampionsHeldItemsGuide": {
+      "eyebrow": "Held Items",
+      "title": "Pokemon Champions Held Items Guide",
+      "subtitle": "Held Items to Learn First for Faster Team Upgrades",
+      "intro": "Held items in Pokemon Champions do not all do the same kind of work. Some are cheap matchup tools, some are steady damage boosts, and a few can completely swing a turn when triggered. The fastest way to improve item decisions is to separate baseline shop buys from the utility pieces that should only be purchased for a specific team or matchup.",
+      "items": [
+        {
+          "itemOrGroup": "Type Booster Items",
+          "examples": "Silk Scarf, Miracle Seed, Charcoal, Mystic Water, Magnet, Dragon Fang, Metal Coat, Fairy Feather",
+          "whatItDoes": "Straightforward offensive shop items listed at 700 VP each.",
+          "howToUseIt": "Best when a Pokemon wins games by repeatedly clicking one main STAB attack type.",
+          "vpCostOrSource": "700 VP each"
+        },
+        {
+          "itemOrGroup": "Status Cure Berries",
+          "examples": "Cheri, Chesto, Pecha, Rawst, Aspear, Persim",
+          "whatItDoes": "Cheap berry-slot utility items available in the shop.",
+          "howToUseIt": "Useful when one status effect would shut down a key attacker or support slot.",
+          "vpCostOrSource": "400 VP each"
+        },
+        {
+          "itemOrGroup": "Type Resist Berries",
+          "examples": "Rindo, Occa, Passho, Wacan, Tanga, Coba, Charti, Kebia, Shuca, Yache, Chople, Payapa, Kasib, Haban, Colbur, Babiri, Roseli",
+          "whatItDoes": "Matchup berries listed in the shop for targeted counterplay.",
+          "howToUseIt": "Buy these for specific ladder threats rather than as blind all-purpose items.",
+          "vpCostOrSource": "400 VP each"
+        },
+        {
+          "itemOrGroup": "Special Shop Picks",
+          "examples": "Scope Lens, Light Ball",
+          "whatItDoes": "Higher-cost niche items already listed in the launch shop.",
+          "howToUseIt": "Worth considering when a specific Pokemon or crit-focused line makes the item slot matter more than raw bulk.",
+          "vpCostOrSource": "1000 VP each"
+        },
+        {
+          "itemOrGroup": "Rocky Helmet",
+          "examples": "Rocky Helmet",
+          "whatItDoes": "If another Pokemon makes contact with the holder, it takes damage.",
+          "howToUseIt": "Excellent on bulky support Pokemon that expect to absorb physical contact.",
+          "vpCostOrSource": "Shop staple"
+        },
+        {
+          "itemOrGroup": "Weakness Policy",
+          "examples": "Weakness Policy",
+          "whatItDoes": "Boosts the holder's attack power if it is hit by a move it is weak to.",
+          "howToUseIt": "Best on Pokemon that can survive the trigger turn and immediately convert it into pressure.",
+          "vpCostOrSource": "Shop staple"
+        },
+        {
+          "itemOrGroup": "Black Sludge",
+          "examples": "Black Sludge",
+          "whatItDoes": "Heals the holder each turn if it is a Poison-type, otherwise it takes damage each turn.",
+          "howToUseIt": "Reserve it for Poison-type users only; it is a sustain slot, not a generic recovery item.",
+          "vpCostOrSource": "Shop staple"
+        },
+        {
+          "itemOrGroup": "Throat Spray",
+          "examples": "Throat Spray",
+          "whatItDoes": "Raises the holder's Sp. Atk after it uses a sound-based move.",
+          "howToUseIt": "Strong on special attackers whose move plan naturally includes a sound-based trigger.",
+          "vpCostOrSource": "Shop staple"
+        },
+        {
+          "itemOrGroup": "Mental Herb",
+          "examples": "Mental Herb",
+          "whatItDoes": "Cures the holder of Infatuation.",
+          "howToUseIt": "A niche utility choice that matters only when you are building for that specific interaction.",
+          "vpCostOrSource": "Shop staple"
         }
       ]
     }
