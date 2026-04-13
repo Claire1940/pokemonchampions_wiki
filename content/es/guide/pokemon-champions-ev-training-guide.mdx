@@ -1,0 +1,118 @@
+export const metadata = {
+  title: "Guía de entrenamiento de EVs en Pokémon Champions: Construcciones competitivas definitivas 2026",
+  description: "Domina el arte de la optimización de estadísticas con nuestra guía exhaustiva de entrenamiento de EVs en Pokémon Champions. Aprende sobre tiers de velocidad, rangos de prioridad y validación en Showdown.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Pokemon+Champions+EV+Training",
+  date: "2026-04-12",
+  author: "Equipo de la Wiki de Pokémon Champions"
+}
+
+Optimizar tu equipo para el circuito competitivo requiere más que solo elegir monstruos poderosos; exige un profundo conocimiento de los Puntos de Esfuerzo (EVs) y los Valores Individuales (IVs). Esta **guía de entrenamiento de EVs en Pokémon Champions** está diseñada para ayudarte a navegar las mecánicas de estadísticas únicas del formato Champions, que a menudo difiere del juego VGC estándar. Ya sea que estés construyendo un núcleo de "Japan Sand" o un equipo de utilidad de Espacio Raro (Trick Room), saber exactamente cómo distribuir tus puntos puede ser la diferencia entre un nocaut en el primer turno o una supervivencia ajustada. 
+
+In esta **guía de entrenamiento de EVs en Pokémon Champions**, desglosaremos las estadísticas fundamentales, exploraremos la mecánica de "puntos extra" que se encuentra en los servidores personalizados de Showdown y proporcionaremos repartos de ejemplo para amenazas de primer nivel como Mega Salamence e Incineroar. Al dominar estos matices en 2026, puedes asegurar que tu equipo esté perfectamente ajustado para el meta actual, permitiéndote superar en velocidad a Meowscarada o sobrevivir a un Cometa Draco potenciado por Gafas Elección.
+
+## Los fundamentos de las estadísticas en Pokémon Champions
+
+Antes de sumergirte en repartos complejos, debes entender qué aporta cada estadística al rendimiento de tu Pokémon. En el formato Champions, cada punto se calcula al Nivel 50, que es el estándar para los torneos regionales oficiales.
+
+| Estadística | Rol Técnico | Importancia Competitiva |
+|---|---|---|
+| **PS (Puntos de Salud)** | Determina la salud total. | Esencial para que los atacantes "bulky" sobrevivan a movimientos de múltiples objetivos. |
+| **Ataque** | Potencia los movimientos físicos (icono de estrella). | Crucial para atacantes físicos como Excadrill o Tyranitar. |
+| **Defensa** | Reduce el daño de los movimientos físicos. | Se ajusta para sobrevivir a movimientos de prioridad comunes como Sorpresa (Fake Out). |
+| **At. Especial** | Potencia los movimientos especiales (icono de anillos). | Vital para atacantes mixtos o atacantes especiales potentes como Gholdengo. |
+| **Def. Especial** | Reduce el daño de los movimientos especiales. | Clave para sobrevivir a ataques especiales pesados potenciados por el clima. |
+| **Velocidad** | Determina el orden de los movimientos. | Generalmente considerada la estadística más importante del juego. |
+
+> **💡 Consejo:** Comprueba siempre si tu movimiento es Físico o Especial. Darle tres movimientos Especiales a un Pokémon con Ataque alto es un error común de principiantes que resulta en un daño significativamente menor.
+
+## Entendiendo el sistema de EVs/IVs de Champions
+
+En el meta de Pokémon Champions de 2026, el sistema de Valores Individuales (IVs) y Puntos de Esfuerzo (EVs) se ha simplificado para el equilibrio competitivo. En los servidores personalizados de Showdown utilizados para este formato, notarás que los IVs casi siempre están configurados en 31 en todos los apartados. Esto crea un campo de juego nivelado donde el enfoque del entrenamiento está totalmente en la distribución de EVs.
+
+Una peculiaridad única del formato Pokémon Champions en servidores personalizados es la mecánica de "puntos extra". Al usar el constructor de equipos, es posible que notes que los repartos tradicionales de 252/252/4 dejan al validador pidiendo más. Básicamente, recibes 4 puntos extra que deben asignarse para evitar un error de "no legal". 
+
+### La regla de los tres y los ochos
+Al Nivel 50, los primeros 4 EVs invertidos en una estadística otorgan 1 punto. Después de esa inversión inicial, se necesitan 8 EVs para ganar cada punto de estadística subsiguiente. Por lo tanto, los repartos eficientes a menudo terminan en números como 4, 12, 20, 28, y así sucesivamente. Si inviertes 24 EVs, estás desperdiciando 4 puntos porque no has alcanzado el siguiente "salto" de 28.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/14X-DIrowfc"
+    title="The Complete Beginners Guide Pokemon Champions VGC On Showdown"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Tiers de velocidad y rangos de prioridad
+
+La velocidad es la piedra angular absoluta de Pokémon Champions. Sin embargo, la velocidad no es un valor estático; puede manipularse mediante movimientos y habilidades. Comprender el rango de prioridad es esencial para predecir el flujo de un turno.
+
+### Tiers de movimientos de prioridad
+Los movimientos en la categoría "Plus" siempre se ejecutan antes que los movimientos en las categorías "Neutral" o "Minus", independientemente de la estadística de velocidad del Pokémon.
+
+| Prioridad | Movimientos Comunes | Uso Competitivo |
+|---|---|---|
+| **+4** | **Protección**, Detección | Defensa definitiva; usado para tantear o esperar a que pasen efectos de campo. |
+| **+3** | **Sorpresa**, Vastaguardia | Hace retroceder al oponente; esencial para detener estrategias de preparación. |
+| **+2** | Velocidad Extrema, Amago | Rematar objetivos con pocos PS antes de que puedan moverse. |
+| **+1** | Ultrapuño, Golpe Bajo | Moverse antes que amenazas más rápidas con baja prioridad. |
+| **0** | Rayo, Avalancha | Movimientos estándar que dependen totalmente de la estadística de Velocidad. |
+| **-7** | **Espacio Raro** | Invierte el orden de los turnos durante 5 turnos. |
+
+### Control de velocidad: Viento Afín vs. Espacio Raro
+*   **Viento Afín (Tailwind):** Generalmente activado por Pokémon pájaro como Talonflame. Duplica la velocidad de tu equipo durante cuatro turnos. Si tienes Viento Afín activo y tu oponente no, asume que todo tu equipo se mueve primero.
+*   **Espacio Raro (Trick Room):** Invierte el orden para que el Pokémon más lento se mueva primero. Esta es la principal contraestrategia para los equipos de "Hyper Offense" de alta velocidad.
+
+## Repartos de EVs de ejemplo para el meta de 2026
+
+Construir un equipo equilibrado requiere puntos de referencia de EVs específicos. A continuación, se muestran repartos de ejemplo utilizados por los mejores jugadores en el circuito actual de Pokémon Champions.
+
+| Pokémon | Rol | Naturaleza Recomendada | Reparto de EVs |
+|---|---|---|---|
+| **Mega Salamence** | Atacante Mixto | Ingenua (+Vel, -DefSp) | 4 Atk / 252 AtSp / 252 Vel |
+| **Tyranitar** | Físico Resistente | Firme (+Atk, -AtSp) | 220 PS / 252 Atk / 36 Vel |
+| **Milotic** | Tanque Especial | Serena (+DefSp, -Atk) | 252 PS / 140 Def / 116 DefSp |
+| **Incineroar** | Soporte | Cauta (+DefSp, -AtSp) | 252 PS / 100 Def / 156 DefSp |
+
+### Por qué funcionan estos repartos
+El reparto de **Mega Salamence** utiliza una naturaleza Ingenua para maximizar la Velocidad mientras le permite usar tanto Doble Filo (Físico) como Vozarrón (Especial) de manera efectiva. Dado que gana la habilidad Piel Celeste al Megaevolucionar, sus movimientos de tipo Normal se convierten en tipo Volador y reciben un impulso masivo.
+
+Para **Tyranitar**, los 36 EVs en Velocidad son un punto de referencia específico. Esto le permite superar en velocidad a los Pokémon con base 100 de Velocidad (como Mega Charizard Y) mientras Viento Afín está activo, asegurando que pueda lanzar una Avalancha crucial antes de ser golpeado por un movimiento súper efectivo.
+
+> **⚠️ Advertencia:** Al construir en el servidor personalizado de Showdown, asegúrate de que tu IV de "Ataque" esté configurado en 0 en los Atacantes Especiales para minimizar el daño recibido por Juego Sucio (Foul Play) o confusión.
+
+## Benchmarking avanzado: El "salto" de naturaleza
+Las naturalezas proporcionan un impulso del 10% a una estadística específica. Para obtener el máximo "valor" de tus EVs, debes intentar tener tu mayor inversión de EVs en la estadística que tu naturaleza está potenciando. Esto se debe a que el bono del 10% se calcula *después* de que se añaden los EVs. Por ejemplo, un impulso del 10% en una estadística de 150 te da 15 puntos de bono, mientras que un impulso en una estadística de 100 solo te da 10.
+
+Al perfeccionar tu estrategia en esta **guía de entrenamiento de EVs en Pokémon Champions**, busca el "salto de estadística": el punto donde añadir 8 EVs resulta en 2 puntos de estadística en lugar de 1 debido al redondeo del multiplicador del 10%.
+
+## Creación de equipos y validación en Showdown
+
+Jugar en servidores personalizados como `showdown-vgc-past-es.psim.us` requiere pasos de validación específicos. Debido a que el formato "Champions" es una creación de la comunidad, el validador estándar de Showdown podría marcar ciertas Mega Piedras o habilidades como ilegales.
+
+1.  **Selecciona el formato correcto:** Elige siempre "Pre-Champions VGC" o la escalera específica de "Champions".
+2.  **Revisa tus movimientos:** Algunos Pokémon en este formato tienen acceso a movimientos "Vintage" que no están disponibles en los juegos más recientes de la Generación 9.
+3.  **La regla del "Menos Dos":** En el control deslizante de EVs del servidor personalizado, normalmente deberías ver un indicador de "-2" puntos restantes. Si dice "0", es posible que hayas pasado por alto los puntos extra permitidos por el cálculo de estadísticas personalizado del formato.
+
+Para obtener la lista más actualizada de Pokémon y Mega Piedras legales, consulta la [lista oficial de Serebii Champions](https://www.serebii.net) o el Discord de la comunidad.
+
+## FAQ
+
+**P: ¿Por qué mi Pokémon dice que es ilegal en Showdown?**
+
+R: Esto suele suceder porque estás usando un formato VGC estándar en lugar del formato personalizado "Champions". Asegúrate de estar en el servidor correcto y de haber seleccionado "Pre-Champions VGC" en el constructor de equipos. Además, comprueba que tus EVs estén totalmente asignados; el formato permite un poco más de puntos que los juegos estándar.
+
+**P: ¿Es 252/252/4 siempre el mejor reparto de EVs?**
+
+R: Aunque 252/252/4 es excelente para atacantes frágiles ("glass cannons"), rara vez es óptimo para Pokémon de soporte. La mayoría de los jugadores competitivos usan esta **guía de entrenamiento de EVs en Pokémon Champions** para encontrar puntos de referencia específicos, como sobrevivir a un golpe concreto de una amenaza común o superar en velocidad a un enemigo bajo Viento Afín.
+
+**P: ¿Cómo funciona la mecánica de los "4 puntos extra"?**
+
+R: En el servidor personalizado de Pokémon Champions, el límite total de EVs es ligeramente superior al tradicional 508/510. Esto a menudo resulta en tener suficientes puntos para ganar un punto de estadística real adicional al Nivel 50. Si no los gastas, el validador puede marcar al equipo como que tiene "puntos sin gastar".
+
+**P: ¿Debería usar Protección en todos los Pokémon?**
+
+R: En formatos de dobles como Champions, Protección es el movimiento más importante del juego. Te permite ganar tiempo para efectos de campo, tantear las intenciones del oponente y proteger a un Pokémon vulnerable mientras su compañero se encarga de una amenaza. Generalmente, al menos 4 de cada 6 Pokémon en tu equipo deberían llevar Protección.
